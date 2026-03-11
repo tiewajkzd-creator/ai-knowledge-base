@@ -19,12 +19,20 @@ function addItem(category, item) {
     data.categories[category] = [];
   }
   
+  const today = new Date().toISOString().split('T')[0];
+  const tomorrow = new Date();
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  
   data.categories[category].unshift({
     title: item.title,
     source: item.source,
-    date: new Date().toISOString().split('T')[0],
+    date: today,
     url: item.url || '',
-    summary: item.summary || ''
+    summary: item.summary || '',
+    reviewCount: 0,
+    nextReviewAt: tomorrow.toISOString().split('T')[0],
+    maturity: '🌱',
+    status: 'inbox'
   });
   
   data.total++;
