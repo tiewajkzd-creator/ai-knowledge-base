@@ -1,7 +1,7 @@
 {
-  "total": 5,
-  "today": 5,
-  "week": 5,
+  "total": 7,
+  "today": 7,
+  "week": 7,
   "categories": {
     "AI绘画": [
       {
@@ -10,6 +10,17 @@
         "date": "2026-03-11",
         "url": "",
         "summary": "本板块收录：视频生成工具（Sora/Pika/Runway/可灵/Luma）、图像生成工具（Ideogram/Leonardo/Midjourney/DALL-E 3）、开源工具（Stable Diffusion/Flux/ComfyUI）、提示词技巧、工作流案例、踩坑经验",
+        "reviewCount": 0,
+        "nextReviewAt": "2026-03-12",
+        "maturity": "🌱",
+        "status": "inbox"
+      },
+      {
+        "title": "Seedance 2.0 提示词万能公式：100个实战案例总结",
+        "source": "微信公众号 - 萝卜AI笔记",
+        "date": "2026-03-08",
+        "url": "https://mp.weixin.qq.com/s/px-SOT8W9peQ_G6PEosJnA",
+        "summary": "【万能八要素框架】主体+动作+场景+光影+镜头语言+风格+画质+约束\n\n【时间轴切片法】按时间段写提示词：0-3秒全景、3-7秒中景、7-11秒特写、11-15秒近景到全景，每个时间段详细描述动作和细节\n\n【四大场景实战】①唯美人像：樱花树下少年，分时间段写+动作具体到"发丝晃动""脚踩花瓣沙沙声"+强化词约束画质 ②动作战斗：竹林剑客对决，大场面宏观描写（火星如烟花、竹叶旋涡）+动作因果链+镜头切换角度 ③电影质感：教父登场，具体道具营造氛围（红木书架、镀银手枪、壁炉火光）+慢动作+极致细节 ④奇幻科幻：龙族苏醒，环境细节（岩浆流动、鳞片如红宝石）+特效描述\n\n【快速生成模板】画面比例+时长+风格定位+分段描述+【强化词】\n\n【强化词模板】画质类（4K超高清/电影质感/细节丰富）+稳定类（面部清晰不变形/人体比例自然/动作流畅无跳帧）+光影类（暖黄逆光/电影级打光/丁达尔效应）+氛围类（治愈清新/赛博朋克/史诗级/浪漫唯美）\n\n【核心原则】Seedance 2.0对提示词遵循度极高，指令越完善视频越给力。平庸和惊艳的差距在于对光影和呼吸的毫厘刻画",
         "reviewCount": 0,
         "nextReviewAt": "2026-03-12",
         "maturity": "🌱",
@@ -36,6 +47,17 @@
         "date": "2026-03-11",
         "url": "",
         "summary": "本板块收录：Agent框架（LangChain/LangGraph/AutoGPT/CrewAI）、多智能体协作、工具调用、记忆系统/RAG、规划推理、任务分解、OpenAWS相关技巧",
+        "reviewCount": 0,
+        "nextReviewAt": "2026-03-12",
+        "maturity": "🌱",
+        "status": "inbox"
+      },
+      {
+        "title": "OpenClaw + Claude Code 超强教程：一个人搭建完整开发团队",
+        "source": "微信公众号 - Datawhale",
+        "date": "2026-02-25",
+        "url": "https://mp.weixin.qq.com/s/gtxM1f3JmfXqDuxGIa3-ng",
+        "summary": "【核心架构】双层系统：OpenClaw编排层（持有业务上下文、客户数据、会议记录）+ Agent执行层（Codex/Claude Code/Gemini专注写代码）\n\n【真实数据】单日94次提交，30分钟完成7个PR，月成本$190（Claude $100 + Codex $90）\n\n【完整工作流】客户需求→OpenClaw理解拆解→启动Agent（独立worktree+tmux会话）→自动监控（每10分钟检查状态）→创建PR→三重AI Code Review（Codex最靠谱/Gemini免费好用/Claude过度谨慎）→自动化测试→人工Review 5-10分钟→合并\n\n【三大机制】①改进版Ralph Loop：失败时动态重写prompt而非重复执行 ②Agent选择策略：Codex主力后端/Claude速度型前端/Gemini设计师UI ③瓶颈是RAM不是token：每个Agent需独立worktree+node_modules，16GB最多跑4-5个\n\n【关键洞察】Codex/Claude单独用的根本限制：上下文窗口固定，要么塞代码要么塞业务上下文，无法兼顾。OpenClaw解决方案：编排层翻译业务上下文为精确prompt，执行层专注代码，通过专业化分工而非更强模型\n\n【安全设计】执行层Agent永不接触生产数据库，只拿最小必要上下文\n\n【自动化亮点】Zoe（OpenClaw）主动找活：早上扫Sentry修bug、会议后扫记录做需求、晚上扫git log更新文档",
         "reviewCount": 0,
         "nextReviewAt": "2026-03-12",
         "maturity": "🌱",
