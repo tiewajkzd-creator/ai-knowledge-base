@@ -1,12 +1,52 @@
 {
-  "total": 0,
-  "today": 0,
-  "week": 0,
+  "total": 5,
+  "today": 5,
+  "week": 5,
   "categories": {
-    "AI绘画": [],
-    "AI编程": [],
-    "Agent": [],
-    "AI工具": [],
-    "AI前沿": []
+    "AI绘画": [
+      {
+        "title": "知识库分类说明",
+        "source": "系统初始化",
+        "date": "2026-03-11",
+        "url": "",
+        "summary": "本板块收录：视频生成工具（Sora/Pika/Runway/可灵/Luma）、图像生成工具（Ideogram/Leonardo/Midjourney/DALL-E 3）、开源工具（Stable Diffusion/Flux/ComfyUI）、提示词技巧、工作流案例、踩坑经验"
+      }
+    ],
+    "AI编程": [
+      {
+        "title": "知识库分类说明",
+        "source": "系统初始化",
+        "date": "2026-03-11",
+        "url": "",
+        "summary": "本板块收录：AI编程工具（Cursor/Windsurf/GitHub Copilot/Aider）、代码生成技巧、单元测试、代码审查、重构优化、调试排错、架构设计"
+      }
+    ],
+    "Agent": [
+      {
+        "title": "知识库分类说明",
+        "source": "系统初始化",
+        "date": "2026-03-11",
+        "url": "",
+        "summary": "本板块收录：Agent框架（LangChain/LangGraph/AutoGPT/CrewAI）、多智能体协作、工具调用、记忆系统/RAG、规划推理、任务分解、OpenAWS相关技巧"
+      }
+    ],
+    "AI工具": [
+      {
+        "title": "知识库分类说明",
+        "source": "系统初始化",
+        "date": "2026-03-11",
+        "url": "",
+        "summary": "本板块收录：生产力工具（ChatGPT/Claude/Gemini/Cursor/Notion AI）、创意工具（Runway/Pika/ElevenLabs/Suno AI）、开发工具（Vercel v0/Bolt.new/Replit）、AI搜索/浏览器/视频编辑/音频处理"
+      }
+    ],
+    "AI前沿": [
+      {
+        "title": "知识库分类说明",
+        "source": "系统初始化",
+        "date": "2026-03-11",
+        "url": "",
+        "summary": "本板块收录：ProductHunt AI新品、Hugging Face Papers、GitHub Trending AI/ML项目、模型评测、benchmark、开源项目动态"
+      }
+    ]
   }
 }
