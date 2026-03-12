@@ -54,18 +54,24 @@
             border-radius: 6px;
             cursor: pointer;
             transition: all 0.2s;
-            display: flex;
-            align-items: center;
-            gap: 8px;
         }
-        .nav-item:hover {
-            background: #e8eaf6;
-        }
+        .nav-item:hover { background: #e8eaf6; }
         .nav-item.active {
             background: #667eea;
             color: white;
             font-weight: 500;
         }
+        .stats-bar {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        .stat { text-align: center; }
+        .stat-num { font-size: 1.5em; font-weight: bold; color: #667eea; }
+        .stat-label { font-size: 0.85em; color: #999; margin-top: 4px; }
         .filter-tabs {
             display: flex;
             gap: 10px;
@@ -77,14 +83,10 @@
             padding: 8px 16px;
             border-radius: 6px 6px 0 0;
             cursor: pointer;
-            transition: all 0.2s;
             color: #666;
         }
         .tab:hover { background: #f5f5f5; }
-        .tab.active {
-            background: #667eea;
-            color: white;
-        }
+        .tab.active { background: #667eea; color: white; }
         .article-card {
             background: #f8f9fa;
             padding: 20px;
@@ -121,17 +123,6 @@
             border-radius: 12px;
             font-size: 0.85em;
         }
-        .stats-bar {
-            display: flex;
-            gap: 20px;
-            margin-bottom: 20px;
-            padding: 15px;
-            background: #f8f9fa;
-            border-radius: 8px;
-        }
-        .stat { text-align: center; }
-        .stat-num { font-size: 1.5em; font-weight: bold; color: #667eea; }
-        .stat-label { font-size: 0.85em; color: #999; margin-top: 4px; }
     </style>
 </head>
 <body>
@@ -175,59 +166,40 @@
             </div>
             
             <div class="filter-tabs">
-                <div class="tab active" onclick="switchTab('all')">全部</div>
-                <div class="tab" onclick="switchTab('week')">本周</div>
-                <div class="tab" onclick="switchTab('month')">本月</div>
+                <div class="tab active">全部</div>
+                <div class="tab">本周</div>
+                <div class="tab">本月</div>
             </div>
             
-            <div id="articles">
-                <div class="article-card" onclick="openArticle('Agent系统/OpenClaw-Claude-Code实践案例.html')">
-                    <div class="article-title">OpenClaw + Claude Code 实践案例</div>
-                    <div class="article-meta">微信公众号 Datawhale | 2026年 | 🌿 有参考价值</div>
-                    <div class="article-tags">
-                        <span class="tag">#OpenClaw</span>
-                        <span class="tag">#Claude Code</span>
-                        <span class="tag">#AI编程</span>
-                        <span class="tag">#自动化开发</span>
-                    </div>
-                </div>
-            </div>
+            <div id="articles"></div>
         </div>
     </div>
     
     <script>
         const articles = {
-            agent: [
-                {
-                    title: 'OpenClaw + Claude Code 实践案例',
-                    url: 'Agent系统/OpenClaw-Claude-Code实践案例.html',
-                    source: '微信公众号 Datawhale',
-                    date: '2026年',
-                    maturity: '🌿 有参考价值',
-                    tags: ['#OpenClaw', '#Claude Code', '#AI编程', '#自动化开发']
-                }
-            ],
+            agent: [{
+                title: 'OpenClaw + Claude Code：一个人搭建完整开发团队',
+                url: 'Agent系统/OpenClaw-Claude-Code实践案例.html',
+                source: '微信公众号 Datawhale',
+                date: '2026年',
+                maturity: '🌿 有参考价值',
+                tags: ['#OpenClaw', '#Claude Code', '#多Agent协作', '#自动化开发']
+            }],
             painting: [],
             coding: [],
             frontier: [],
             growth: []
         };
         
+        let currentSection = 'agent';
+        
         function showSection(section) {
-            document.querySelectorAll('.nav-item').forEach(item => {
+            currentSection = section;
+            document.querySelectorAll('.sidebar .nav-item').forEach(item => {
                 item.classList.remove('active');
             });
             event.target.classList.add('active');
-            
-            const sectionMap = {
-                agent: 'agent',
-                painting: 'painting',
-                coding: 'coding',
-                frontier: 'frontier',
-                growth: 'growth'
-            };
-            
-            renderArticles(articles[sectionMap[section]] || []);
+            renderArticles(articles[section] || []);
         }
         
         function renderArticles(list) {
@@ -238,7 +210,7 @@
             }
             
             container.innerHTML = list.map(article => `
-                <div class="article-card" onclick="openArticle('${article.url}')">
+                <div class="article-card" onclick="window.location.href='${article.url}'">
                     <div class="article-title">${article.title}</div>
                     <div class="article-meta">${article.source} | ${article.date} | ${article.maturity}</div>
                     <div class="article-tags">
@@ -248,18 +220,11 @@
             `).join('');
         }
         
-        function openArticle(url) {
-            window.location.href = url;
-        }
-        
         function filterBy(type) {
             alert('筛选功能开发中：' + type);
         }
         
-        function switchTab(tab) {
-            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-            event.target.classList.add('active');
-        }
+        renderArticles(articles.agent);
     </script>
 </body>
 </html>
