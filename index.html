@@ -182,8 +182,9 @@
                               "title": "OpenClaw + Claude Code：一个人搭建完整开发团队",
                               "url": "Agent系统/OpenClaw-Claude-Code实践案例.html",
                               "source": "微信公众号 Datawhale",
-                              "date": "2026年",
+                              "date": "2026-03-12",
                               "maturity": "🌿 有参考价值",
+                              "quality": 5,
                               "tags": [
                                         "#OpenClaw",
                                         "#Claude Code",
@@ -196,8 +197,9 @@
                               "title": "Seedance 2.0 提示词公式：时间轴切片法",
                               "url": "AI绘画/Seedance提示词公式-时间轴切片法.html",
                               "source": "微信公众号",
-                              "date": "2026年",
+                              "date": "2026-03-12",
                               "maturity": "🌿 有参考价值",
+                              "quality": 5,
                               "tags": [
                                         "#Seedance",
                                         "#AI视频生成",
@@ -211,14 +213,56 @@
 };
         
         let currentSection = 'agent';
+        let currentFilter = 'all';
+        let allArticles = [];
+        
+        // 初始化：合并所有文章
+        function initArticles() {
+            allArticles = [];
+            Object.keys(articles).forEach(section => {
+                articles[section].forEach(article => {
+                    allArticles.push({...article, section});
+                });
+            });
+            updateStats();
+        }
         
         function showSection(section) {
             currentSection = section;
+            currentFilter = 'all';
             document.querySelectorAll('.sidebar .nav-item').forEach(item => {
                 item.classList.remove('active');
             });
             event.target.classList.add('active');
+            document.querySelectorAll('.filter-tabs .tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.querySelectorAll('.filter-tabs .tab')[0].classList.add('active');
             renderArticles(articles[section] || []);
+        }
+        
+        function updateStats() {
+            const total = allArticles.length;
+            const now = new Date();
+            const weekAgo = new Date(now - 7 * 24 * 60 * 60 * 1000);
+            const weekNew = allArticles.filter(a => new Date(a.date) >= weekAgo).length;
+            
+            document.querySelector('.stat-num').textContent = total;
+            document.querySelectorAll('.stat-num')[2].textContent = weekNew;
+        }
+        
+        function filterBy(type) {
+            let filtered = [...allArticles];
+            const now = new Date();
+            
+            if (type === 'time') {
+                filtered.sort((a, b) => new Date(b.date) - new Date(a.date));
+            } else if (type === 'quality') {
+                filtered.sort((a, b) => (b.quality || 0) - (a.quality || 0));
+            }
+            
+            currentFilter = type;
+            renderArticles(filtered);
         }
         
         function renderArticles(list) {
@@ -243,6 +287,7 @@
             alert('筛选功能开发中：' + type);
         }
         
+        initArticles();
         renderArticles(articles.agent);
     </script>
 </body>
