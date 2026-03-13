@@ -10,11 +10,11 @@
 
 ## 核心观点
 
-1. OpenClaw工作区Markdown文件优化，避免加载过多内容浪费上下文
-2. Persistent Agent：持久化Agent，保持长期记忆和状态
-3. Sub-Agent：子Agent，用于任务分解和并行处理
-4. ACP Agent：Agent Communication Protocol，用于Agent间通信
-5. LanceDB插件已升级为官方组织项目，贡献者达20人，新增多项功能
+1. OpenClaw工作区Markdown文件（AGENTS.md、TOOLS.md等）会在每次新会话时自动加载，未优化会浪费大量上下文token
+2. 开发了专门的Skill用于自动优化工作区Markdown文件，通过自然语言安装后可一键审计和精简文件内容
+3. 支持创建定时任务（如每周一早上9点）自动调用Skill对工作区进行定期优化，保持文件精简高效
+4. Persistent Agent保持长期记忆和状态，Sub-Agent用于任务分解和并行处理，ACP Agent负责Agent间通信协议
+5. LanceDB记忆插件已从个人项目升级为官方组织项目，贡献者达20人，新版本新增多项强大功能
 
 ---
 
