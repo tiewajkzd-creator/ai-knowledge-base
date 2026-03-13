@@ -3,7 +3,7 @@
 **来源：** B站 - 三层楼的小肥猴  
 **原文链接：** [点击查看](https://www.bilibili.com/video/BV1EMNMzmEhd)  
 **发布时间：** 2026-03-08  
-**质量评分：**   
+**质量评分：** ⭐⭐⭐  
 **成熟度：** 🌱 新鲜观点
 
 ---
@@ -28,7 +28,15 @@
 - GGUF（量化格式）
 - Qwen3 8B（提示词反推模型）
 - ComfyUI-Crystools（音频+连线特效插件）
-- 那一号不（AI工作平台）
+
+---
+
+## 资源链接
+
+- **模型下载：** https://huggingface.co/unsloth/LTX-2.3-GGUF/tree/main
+- **插件仓库：** https://github.com/kijai/ComfyUI-KJNodes
+- **工具插件：** https://github.com/syq890610-crypto/Comfyui-Mk-tools
+- **工作流分享：** https://www.runninghub.cn/ai-detail/2030240696480833538
 
 ---
 
