@@ -10,11 +10,7 @@
 
 ## 核心观点
 
-1.  粉丝注册福利，注册领1000RH币：https://www.runninghub.cn/?inviteCode=rh-v1325
-2. 在线工作流-----------------------------------
-3. 工作流：Wan2.2 Remix i2v 2.1 图生视频VBVR逻辑推理强化工作流 
-4. 体验地址：https://www.runninghub.cn/post/2026688358109421570/?inviteCode=rh-v1325
-5. AI应用：Wan2.2 Remix i2v 2.1 图生视频VBVR逻辑推理强化
+
 
 ---
 
