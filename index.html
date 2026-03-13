@@ -124,6 +124,14 @@
             font-size: 0.85em;
         }
     </style>
+    <script>
+    function showCategory(cat) {
+        document.querySelectorAll('.category-section').forEach(s => s.style.display = 'none');
+        document.getElementById(cat).style.display = 'block';
+        document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+        event.target.classList.add('active');
+    }
+    </script>
 </head>
 <body>
     <div class="header">
@@ -133,11 +141,16 @@
         <div class="sidebar">
             <div class="nav-section">
                 <div class="nav-title">板块</div>
-                <div class="nav-item">🤖 Agent系统</div>
-                <div class="nav-item">🎨 AI绘画</div>
-                <div class="nav-item">💻 AI编程</div>
-                <div class="nav-item">🔭 AI前沿</div>
-                <div class="nav-item">📖 个人成长</div>
+                <div class="nav-item active" onclick="showCategory('Agent系统')">🤖 Agent系统</div>
+                <div class="nav-item" onclick="showCategory('AI绘画')">🎨 AI绘画</div>
+                <div class="nav-item" onclick="showCategory('AI编程')">💻 AI编程</div>
+                <div class="nav-item" onclick="showCategory('AI前沿')">🔭 AI前沿</div>
+                <div class="nav-item" onclick="showCategory('个人成长')">📖 个人成长</div>
+            </div>
+            <div class="nav-section">
+                <div class="nav-title">筛选</div>
+                <div class="nav-item">📅 按时间</div>
+                <div class="nav-item">⭐ 按质量</div>
             </div>
         </div>
         <div class="content">
@@ -148,26 +161,46 @@
                 </div>
             </div>
 
-        <div class="article-card" onclick="window.open('Agent%E7%B3%BB%E7%BB%9F/OpenClaw-Claude-Code%E5%AE%9E%E8%B7%B5%E6%A1%88%E4%BE%8B.md')">
-            <div class="article-meta">
-                <span class="category-tag">Agent系统</span>
-                <span class="article-date">2026年1月  </span>
+        <div id="Agent系统" class="category-section" style="display:block">
+            <h2>🤖 Agent系统</h2>
+            
+            <div class="article-card" onclick="window.open('Agent%E7%B3%BB%E7%BB%9F/OpenClaw-Claude-Code%E5%AE%9E%E8%B7%B5%E6%A1%88%E4%BE%8B.md')">
+                <div class="article-meta">
+                    <span class="article-date">2026年1月  </span>
+                    <span>⭐⭐⭐⭐⭐  </span>
+                </div>
+                <h3 class="article-title">OpenClaw + Claude Code：一个人搭建完整开发团队（完整版）</h3>
             </div>
-            <h3 class="article-title">OpenClaw + Claude Code：一个人搭建完整开发团队（完整版）</h3>
         </div>
-        <div class="article-card" onclick="window.open('AI%E7%BB%98%E7%94%BB/Seedance%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%85%AC%E5%BC%8F-%E6%97%B6%E9%97%B4%E8%BD%B4%E5%88%87%E7%89%87%E6%B3%95.md')">
-            <div class="article-meta">
-                <span class="category-tag">AI绘画</span>
-                <span class="article-date">2026年  </span>
+        <div id="AI绘画" class="category-section" style="display:none">
+            <h2>🎨 AI绘画</h2>
+            
+            <div class="article-card" onclick="window.open('AI%E7%BB%98%E7%94%BB/LTX2.3%E5%8F%88%E6%9B%B4%E6%96%B0%E4%BA%86%E3%80%81%E5%8E%BB%E9%99%A4%E5%AD%97%E5%B9%95%E3%80%81%E6%96%B0%E5%A2%9EGGUF%E5%B7%A5%E4%BD%9C%E6%B5%81%E3%80%81%E6%8A%A5%E9%94%99%E4%BF%A1%E6%81%AF%E8%A7%A3%E7%AD%94.md')">
+                <div class="article-meta">
+                    <span class="article-date">2026-03-08  </span>
+                    <span>⭐⭐⭐⭐⭐  </span>
+                </div>
+                <h3 class="article-title">LTX2.3又更新了、去除字幕、新增GGUF工作流、报错信息解答</h3>
             </div>
-            <h3 class="article-title">Seedance 2.0 提示词公式：时间轴切片法</h3>
+            <div class="article-card" onclick="window.open('AI%E7%BB%98%E7%94%BB/Seedance%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%85%AC%E5%BC%8F-%E6%97%B6%E9%97%B4%E8%BD%B4%E5%88%87%E7%89%87%E6%B3%95.md')">
+                <div class="article-meta">
+                    <span class="article-date">2026年  </span>
+                    <span>⭐⭐⭐⭐⭐  </span>
+                </div>
+                <h3 class="article-title">Seedance 2.0 提示词公式：时间轴切片法</h3>
+            </div>
         </div>
-        <div class="article-card" onclick="window.open('AI%E7%BB%98%E7%94%BB/LTX2.3%E5%8F%88%E6%9B%B4%E6%96%B0%E4%BA%86%E3%80%81%E5%8E%BB%E9%99%A4%E5%AD%97%E5%B9%95%E3%80%81%E6%96%B0%E5%A2%9EGGUF%E5%B7%A5%E4%BD%9C%E6%B5%81%E3%80%81%E6%8A%A5%E9%94%99%E4%BF%A1%E6%81%AF%E8%A7%A3%E7%AD%94.md')">
-            <div class="article-meta">
-                <span class="category-tag">AI绘画</span>
-                <span class="article-date">2026-03-08  </span>
-            </div>
-            <h3 class="article-title">LTX2.3又更新了、去除字幕、新增GGUF工作流、报错信息解答</h3>
+        <div id="AI编程" class="category-section" style="display:none">
+            <h2>💻 AI编程</h2>
+            
+        </div>
+        <div id="AI前沿" class="category-section" style="display:none">
+            <h2>🔭 AI前沿</h2>
+            
+        </div>
+        <div id="个人成长" class="category-section" style="display:none">
+            <h2>📖 个人成长</h2>
+            
         </div>
         </div>
     </div>
