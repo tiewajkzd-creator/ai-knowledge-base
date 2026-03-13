@@ -84,8 +84,9 @@
         }
         
         function renderArticles(subFilter = null) {
-            let list = data.articles.filter(a => a.category === currentCategory);
-            if (subFilter) list = list.filter(a => a.subCategory === subFilter);
+            let list = subFilter 
+                ? data.articles.filter(a => a.category === currentCategory && a.subCategory === subFilter)
+                : data.articles.filter(a => a.category === currentCategory);
             
             if (currentFilter === 'author') {
                 const byAuthor = {};
@@ -93,16 +94,25 @@
                     if (!byAuthor[a.author]) byAuthor[a.author] = [];
                     byAuthor[a.author].push(a);
                 });
-                document.getElementById('articles').innerHTML = Object.keys(byAuthor).map(author => `
-                    <h3 style="margin: 20px 0 10px;">${author}</h3>
-                    ${byAuthor[author].map(renderCard).join('')}
-                `).join('');
+                document.getElementById('articles').innerHTML = `
+                    <h2>${data.categories[currentCategory]} ${currentCategory} - 按作者分组</h2>
+                    ${Object.keys(byAuthor).map(author => `
+                        <h3 style="margin: 20px 0 10px; color: #666;">${author} (${byAuthor[author].length}篇)</h3>
+                        ${byAuthor[author].map(renderCard).join('')}
+                    `).join('')}
+                `;
             } else if (currentFilter === 'time') {
                 list.sort((a, b) => new Date(b.date) - new Date(a.date));
-                document.getElementById('articles').innerHTML = list.map(renderCard).join('');
+                document.getElementById('articles').innerHTML = `
+                    <h2>${data.categories[currentCategory]} ${currentCategory} - 按时间排序</h2>
+                    ${list.map(renderCard).join('')}
+                `;
             } else if (currentFilter === 'quality') {
                 list.sort((a, b) => b.score.length - a.score.length);
-                document.getElementById('articles').innerHTML = list.map(renderCard).join('');
+                document.getElementById('articles').innerHTML = `
+                    <h2>${data.categories[currentCategory]} ${currentCategory} - 按质量排序</h2>
+                    ${list.map(renderCard).join('')}
+                `;
             } else {
                 document.getElementById('articles').innerHTML = `
                     <h2>${data.categories[currentCategory]} ${currentCategory}${subFilter ? ' / ' + subFilter : ''}</h2>
