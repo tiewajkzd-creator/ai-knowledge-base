@@ -184,6 +184,26 @@
             card.style.display = title.includes(query) ? 'block' : 'none';
         });
     }
+    
+    function sortArticles(type) {
+        const section = document.getElementById(currentCategory);
+        if (!section) return;
+        
+        const cards = Array.from(section.querySelectorAll('.article-card'));
+        cards.sort((a, b) => {
+            if (type === 'time') {
+                const dateA = new Date(a.querySelector('.article-date').textContent);
+                const dateB = new Date(b.querySelector('.article-date').textContent);
+                return dateB - dateA;
+            } else if (type === 'quality') {
+                const scoreA = a.querySelector('.article-meta span:last-child').textContent.length;
+                const scoreB = b.querySelector('.article-meta span:last-child').textContent.length;
+                return scoreB - scoreA;
+            }
+        });
+        
+        cards.forEach(card => section.appendChild(card));
+    }
     </script>
 </head>
 <body>
@@ -202,8 +222,8 @@
             </div>
             <div class="nav-section">
                 <div class="nav-title">筛选</div>
-                <div class="nav-item">📅 按时间</div>
-                <div class="nav-item">⭐ 按质量</div>
+                <div class="nav-item" onclick="sortArticles('time')">📅 按时间</div>
+                <div class="nav-item" onclick="sortArticles('quality')">⭐ 按质量</div>
             </div>
         </div>
         <div class="content">
