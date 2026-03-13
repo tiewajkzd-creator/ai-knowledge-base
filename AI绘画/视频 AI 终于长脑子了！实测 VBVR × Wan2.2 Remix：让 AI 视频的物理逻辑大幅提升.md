@@ -3,14 +3,18 @@
 **来源：** B站 - 三层楼的小肥猴  
 **原文链接：** [点击查看](https://www.bilibili.com/video/BV1REArzwEoW)  
 **发布时间：** 2026-02-26  
-**质量评分：** ⭐⭐⭐  
+**质量评分：** ⭐⭐  
 **成熟度：** 🌱 新鲜观点
 
 ---
 
 ## 核心观点
 
-1. 待补充
+1.  粉丝注册福利，注册领1000RH币：https://www.runninghub.cn/?inviteCode=rh-v1325
+2. 在线工作流-----------------------------------
+3. 工作流：Wan2.2 Remix i2v 2.1 图生视频VBVR逻辑推理强化工作流 
+4. 体验地址：https://www.runninghub.cn/post/2026688358109421570/?inviteCode=rh-v1325
+5. AI应用：Wan2.2 Remix i2v 2.1 图生视频VBVR逻辑推理强化
 
 ---
 
@@ -46,4 +50,4 @@ If the VAE is from a checkpoint loader node your checkpoint does not contain a v
 
 ## 标签
 
-`待生成`
+`视频生成` `工作流`
