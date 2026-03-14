@@ -112,13 +112,13 @@
                     `).join('')}
                 `;
             } else if (currentFilter === 'time') {
-                list.sort((a, b) => new Date(b.date) - new Date(a.date));
+                list.sort((a, b) => b.dateSort - a.dateSort);
                 document.getElementById('articles').innerHTML = `
                     <h2>${data.categories[currentCategory]} ${currentCategory} - 按时间排序</h2>
                     ${list.map(renderCard).join('')}
                 `;
             } else if (currentFilter === 'quality') {
-                list.sort((a, b) => b.score.length - a.score.length);
+                list.sort((a, b) => b.scoreNum - a.scoreNum);
                 document.getElementById('articles').innerHTML = `
                     <h2>${data.categories[currentCategory]} ${currentCategory} - 按质量排序</h2>
                     ${list.map(renderCard).join('')}
