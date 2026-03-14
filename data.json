@@ -21,12 +21,10 @@
           "author": "微信公众号 Datawhale",
           "freshness": "🌿 有参考价值（真实生产案例，200+段完整内容）",
           "path": "Agent系统/OpenClaw教程/OpenClaw-Claude-Code实践案例.md"
-        }
-      ],
-      "实战案例": [
+        },
         {
           "category": "Agent系统",
-          "subCategory": "实战案例",
+          "subCategory": "OpenClaw教程",
           "title": "🚀OpenClaw最强大脑：GPT-5.4深度实测！Agent能力强到离谱！自主完成多轮长链路复杂任务！实测可全自动为其他设备部署小龙虾！OpenClaw教程",
           "file": "🚀OpenClaw最强大脑：GPT-5.4深度实测！Agent能力强到离谱！自主完成多轮长链路复杂任务！实测可全自动为其他设备部署小龙虾！OpenClaw教程.md",
           "date": "2026-03-06  ",
@@ -35,9 +33,23 @@
           "scoreNum": 2,
           "author": "AI超元域",
           "freshness": "🌱 新鲜观点",
-          "path": "Agent系统/实战案例/🚀OpenClaw最强大脑：GPT-5.4深度实测！Agent能力强到离谱！自主完成多轮长链路复杂任务！实测可全自动为其他设备部署小龙虾！OpenClaw教程.md"
+          "path": "Agent系统/OpenClaw教程/🚀OpenClaw最强大脑：GPT-5.4深度实测！Agent能力强到离谱！自主完成多轮长链路复杂任务！实测可全自动为其他设备部署小龙虾！OpenClaw教程.md"
+        },
+        {
+          "category": "Agent系统",
+          "subCategory": "OpenClaw教程",
+          "title": "🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent",
+          "file": "🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent.md",
+          "date": "2026-03-11  ",
+          "dateSort": 1773187200000,
+          "score": "⭐⭐  ",
+          "scoreNum": 2,
+          "author": "AI超元域",
+          "freshness": "🌱 新鲜观点",
+          "path": "Agent系统/OpenClaw教程/🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent.md"
         }
       ],
+      "实战案例": [],
       "插件开发": [
         {
           "category": "Agent系统",
@@ -53,21 +65,7 @@
           "path": "Agent系统/插件开发/🚀OpenClaw高级玩法之跨机器跨Gateway交互：自研A2A协议插件打通多Agent互相通信，Token节省50%【龙虾教程】.md"
         }
       ],
-      "架构设计": [
-        {
-          "category": "Agent系统",
-          "subCategory": "架构设计",
-          "title": "🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent",
-          "file": "🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent.md",
-          "date": "2026-03-11  ",
-          "dateSort": 1773187200000,
-          "score": "⭐⭐  ",
-          "scoreNum": 2,
-          "author": "AI超元域",
-          "freshness": "🌱 新鲜观点",
-          "path": "Agent系统/架构设计/🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent.md"
-        }
-      ]
+      "架构设计": []
     },
     "AI绘画": {
       "工作流教程": [],
@@ -85,19 +83,6 @@
           "author": "微信公众号",
           "freshness": "🌿 有参考价值（100个实践案例验证）",
           "path": "AI绘画/提示词技巧/Seedance提示词公式-时间轴切片法.md"
-        },
-        {
-          "category": "AI绘画",
-          "subCategory": "提示词技巧",
-          "title": "视频 AI 终于长脑子了！实测 VBVR × Wan2.2 Remix：让 AI 视频的物理逻辑大幅提升",
-          "file": "视频 AI 终于长脑子了！实测 VBVR × Wan2.2 Remix：让 AI 视频的物理逻辑大幅提升.md",
-          "date": "2026-02-26  ",
-          "dateSort": 1772064000000,
-          "score": "⭐⭐  ",
-          "scoreNum": 2,
-          "author": "三层楼的小肥猴",
-          "freshness": "🌱 新鲜观点",
-          "path": "AI绘画/提示词技巧/视频 AI 终于长脑子了！实测 VBVR × Wan2.2 Remix：让 AI 视频的物理逻辑大幅提升.md"
         }
       ],
       "模型更新": [
@@ -126,6 +111,19 @@
           "author": "三层楼的小肥猴",
           "freshness": "🌱 新鲜观点",
           "path": "AI绘画/模型更新/LTX2.3又更新了、去除字幕、新增GGUF工作流、报错信息解答.md"
+        },
+        {
+          "category": "AI绘画",
+          "subCategory": "模型更新",
+          "title": "视频 AI 终于长脑子了！实测 VBVR × Wan2.2 Remix：让 AI 视频的物理逻辑大幅提升",
+          "file": "视频 AI 终于长脑子了！实测 VBVR × Wan2.2 Remix：让 AI 视频的物理逻辑大幅提升.md",
+          "date": "2026-02-26  ",
+          "dateSort": 1772064000000,
+          "score": "⭐⭐  ",
+          "scoreNum": 2,
+          "author": "三层楼的小肥猴",
+          "freshness": "🌱 新鲜观点",
+          "path": "AI绘画/模型更新/视频 AI 终于长脑子了！实测 VBVR × Wan2.2 Remix：让 AI 视频的物理逻辑大幅提升.md"
         }
       ],
       "问题解决": []
@@ -150,7 +148,7 @@
     },
     {
       "category": "Agent系统",
-      "subCategory": "实战案例",
+      "subCategory": "OpenClaw教程",
       "title": "🚀OpenClaw最强大脑：GPT-5.4深度实测！Agent能力强到离谱！自主完成多轮长链路复杂任务！实测可全自动为其他设备部署小龙虾！OpenClaw教程",
       "file": "🚀OpenClaw最强大脑：GPT-5.4深度实测！Agent能力强到离谱！自主完成多轮长链路复杂任务！实测可全自动为其他设备部署小龙虾！OpenClaw教程.md",
       "date": "2026-03-06  ",
@@ -159,7 +157,20 @@
       "scoreNum": 2,
       "author": "AI超元域",
       "freshness": "🌱 新鲜观点",
-      "path": "Agent系统/实战案例/🚀OpenClaw最强大脑：GPT-5.4深度实测！Agent能力强到离谱！自主完成多轮长链路复杂任务！实测可全自动为其他设备部署小龙虾！OpenClaw教程.md"
+      "path": "Agent系统/OpenClaw教程/🚀OpenClaw最强大脑：GPT-5.4深度实测！Agent能力强到离谱！自主完成多轮长链路复杂任务！实测可全自动为其他设备部署小龙虾！OpenClaw教程.md"
+    },
+    {
+      "category": "Agent系统",
+      "subCategory": "OpenClaw教程",
+      "title": "🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent",
+      "file": "🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent.md",
+      "date": "2026-03-11  ",
+      "dateSort": 1773187200000,
+      "score": "⭐⭐  ",
+      "scoreNum": 2,
+      "author": "AI超元域",
+      "freshness": "🌱 新鲜观点",
+      "path": "Agent系统/OpenClaw教程/🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent.md"
     },
     {
       "category": "Agent系统",
@@ -175,19 +186,6 @@
       "path": "Agent系统/插件开发/🚀OpenClaw高级玩法之跨机器跨Gateway交互：自研A2A协议插件打通多Agent互相通信，Token节省50%【龙虾教程】.md"
     },
     {
-      "category": "Agent系统",
-      "subCategory": "架构设计",
-      "title": "🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent",
-      "file": "🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent.md",
-      "date": "2026-03-11  ",
-      "dateSort": 1773187200000,
-      "score": "⭐⭐  ",
-      "scoreNum": 2,
-      "author": "AI超元域",
-      "freshness": "🌱 新鲜观点",
-      "path": "Agent系统/架构设计/🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent.md"
-    },
-    {
       "category": "AI绘画",
       "subCategory": "提示词技巧",
       "title": "Seedance 2.0 提示词公式：时间轴切片法",
@@ -199,19 +197,6 @@
       "author": "微信公众号",
       "freshness": "🌿 有参考价值（100个实践案例验证）",
       "path": "AI绘画/提示词技巧/Seedance提示词公式-时间轴切片法.md"
-    },
-    {
-      "category": "AI绘画",
-      "subCategory": "提示词技巧",
-      "title": "视频 AI 终于长脑子了！实测 VBVR × Wan2.2 Remix：让 AI 视频的物理逻辑大幅提升",
-      "file": "视频 AI 终于长脑子了！实测 VBVR × Wan2.2 Remix：让 AI 视频的物理逻辑大幅提升.md",
-      "date": "2026-02-26  ",
-      "dateSort": 1772064000000,
-      "score": "⭐⭐  ",
-      "scoreNum": 2,
-      "author": "三层楼的小肥猴",
-      "freshness": "🌱 新鲜观点",
-      "path": "AI绘画/提示词技巧/视频 AI 终于长脑子了！实测 VBVR × Wan2.2 Remix：让 AI 视频的物理逻辑大幅提升.md"
     },
     {
       "category": "AI绘画",
@@ -238,6 +223,19 @@
       "author": "三层楼的小肥猴",
       "freshness": "🌱 新鲜观点",
       "path": "AI绘画/模型更新/LTX2.3又更新了、去除字幕、新增GGUF工作流、报错信息解答.md"
+    },
+    {
+      "category": "AI绘画",
+      "subCategory": "模型更新",
+      "title": "视频 AI 终于长脑子了！实测 VBVR × Wan2.2 Remix：让 AI 视频的物理逻辑大幅提升",
+      "file": "视频 AI 终于长脑子了！实测 VBVR × Wan2.2 Remix：让 AI 视频的物理逻辑大幅提升.md",
+      "date": "2026-02-26  ",
+      "dateSort": 1772064000000,
+      "score": "⭐⭐  ",
+      "scoreNum": 2,
+      "author": "三层楼的小肥猴",
+      "freshness": "🌱 新鲜观点",
+      "path": "AI绘画/模型更新/视频 AI 终于长脑子了！实测 VBVR × Wan2.2 Remix：让 AI 视频的物理逻辑大幅提升.md"
     }
   ]
 }
