@@ -15,7 +15,9 @@
           "title": "OpenClaw + Claude Code：一个人搭建完整开发团队（完整版）",
           "file": "OpenClaw-Claude-Code实践案例.md",
           "date": "2026年1月  ",
+          "dateSort": 1767225600000,
           "score": "⭐⭐⭐⭐⭐  ",
+          "scoreNum": 5,
           "author": "微信公众号 Datawhale",
           "freshness": "🌿 有参考价值（真实生产案例，200+段完整内容）",
           "path": "Agent系统/OpenClaw教程/OpenClaw-Claude-Code实践案例.md"
@@ -28,7 +30,9 @@
           "title": "🚀OpenClaw最强大脑：GPT-5.4深度实测！Agent能力强到离谱！自主完成多轮长链路复杂任务！实测可全自动为其他设备部署小龙虾！OpenClaw教程",
           "file": "🚀OpenClaw最强大脑：GPT-5.4深度实测！Agent能力强到离谱！自主完成多轮长链路复杂任务！实测可全自动为其他设备部署小龙虾！OpenClaw教程.md",
           "date": "2026-03-06  ",
+          "dateSort": 1772755200000,
           "score": "⭐⭐  ",
+          "scoreNum": 2,
           "author": "AI超元域",
           "freshness": "🌱 新鲜观点",
           "path": "Agent系统/实战案例/🚀OpenClaw最强大脑：GPT-5.4深度实测！Agent能力强到离谱！自主完成多轮长链路复杂任务！实测可全自动为其他设备部署小龙虾！OpenClaw教程.md"
@@ -41,7 +45,9 @@
           "title": "🚀OpenClaw高级玩法之跨机器跨Gateway交互：自研A2A协议插件打通多Agent互相通信，Token节省50%【龙虾教程】",
           "file": "🚀OpenClaw高级玩法之跨机器跨Gateway交互：自研A2A协议插件打通多Agent互相通信，Token节省50%【龙虾教程】.md",
           "date": "2026-03-07  ",
+          "dateSort": 1772841600000,
           "score": "⭐⭐  ",
+          "scoreNum": 2,
           "author": "AI超元域",
           "freshness": "🌱 新鲜观点",
           "path": "Agent系统/插件开发/🚀OpenClaw高级玩法之跨机器跨Gateway交互：自研A2A协议插件打通多Agent互相通信，Token节省50%【龙虾教程】.md"
@@ -54,7 +60,9 @@
           "title": "🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent",
           "file": "🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent.md",
           "date": "2026-03-11  ",
+          "dateSort": 1773187200000,
           "score": "⭐⭐  ",
+          "scoreNum": 2,
           "author": "AI超元域",
           "freshness": "🌱 新鲜观点",
           "path": "Agent系统/架构设计/🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent.md"
@@ -71,7 +79,9 @@
           "title": "Seedance 2.0 提示词公式：时间轴切片法",
           "file": "Seedance提示词公式-时间轴切片法.md",
           "date": "2026年  ",
+          "dateSort": 1767225600000,
           "score": "⭐⭐⭐⭐⭐  ",
+          "scoreNum": 5,
           "author": "微信公众号",
           "freshness": "🌿 有参考价值（100个实践案例验证）",
           "path": "AI绘画/提示词技巧/Seedance提示词公式-时间轴切片法.md"
@@ -82,7 +92,9 @@
           "title": "视频 AI 终于长脑子了！实测 VBVR × Wan2.2 Remix：让 AI 视频的物理逻辑大幅提升",
           "file": "视频 AI 终于长脑子了！实测 VBVR × Wan2.2 Remix：让 AI 视频的物理逻辑大幅提升.md",
           "date": "2026-02-26  ",
+          "dateSort": 1772064000000,
           "score": "⭐⭐  ",
+          "scoreNum": 2,
           "author": "三层楼的小肥猴",
           "freshness": "🌱 新鲜观点",
           "path": "AI绘画/提示词技巧/视频 AI 终于长脑子了！实测 VBVR × Wan2.2 Remix：让 AI 视频的物理逻辑大幅提升.md"
@@ -95,7 +107,9 @@
           "title": "LTX2.3 全面进化，数字人、图生视频、文生视频，高清画质工作流",
           "file": "LTX2.3 全面进化，数字人、图生视频、文生视频，高清画质工作流.md",
           "date": "2026-03-07  ",
+          "dateSort": 1772841600000,
           "score": "⭐⭐  ",
+          "scoreNum": 2,
           "author": "三层楼的小肥猴",
           "freshness": "🌱 新鲜观点",
           "path": "AI绘画/模型更新/LTX2.3 全面进化，数字人、图生视频、文生视频，高清画质工作流.md"
@@ -106,7 +120,9 @@
           "title": "LTX2.3又更新了、去除字幕、新增GGUF工作流、报错信息解答",
           "file": "LTX2.3又更新了、去除字幕、新增GGUF工作流、报错信息解答.md",
           "date": "2026-03-08  ",
+          "dateSort": 1772928000000,
           "score": "⭐⭐  ",
+          "scoreNum": 2,
           "author": "三层楼的小肥猴",
           "freshness": "🌱 新鲜观点",
           "path": "AI绘画/模型更新/LTX2.3又更新了、去除字幕、新增GGUF工作流、报错信息解答.md"
@@ -125,7 +141,9 @@
       "title": "OpenClaw + Claude Code：一个人搭建完整开发团队（完整版）",
       "file": "OpenClaw-Claude-Code实践案例.md",
       "date": "2026年1月  ",
+      "dateSort": 1767225600000,
       "score": "⭐⭐⭐⭐⭐  ",
+      "scoreNum": 5,
       "author": "微信公众号 Datawhale",
       "freshness": "🌿 有参考价值（真实生产案例，200+段完整内容）",
       "path": "Agent系统/OpenClaw教程/OpenClaw-Claude-Code实践案例.md"
@@ -136,7 +154,9 @@
       "title": "🚀OpenClaw最强大脑：GPT-5.4深度实测！Agent能力强到离谱！自主完成多轮长链路复杂任务！实测可全自动为其他设备部署小龙虾！OpenClaw教程",
       "file": "🚀OpenClaw最强大脑：GPT-5.4深度实测！Agent能力强到离谱！自主完成多轮长链路复杂任务！实测可全自动为其他设备部署小龙虾！OpenClaw教程.md",
       "date": "2026-03-06  ",
+      "dateSort": 1772755200000,
       "score": "⭐⭐  ",
+      "scoreNum": 2,
       "author": "AI超元域",
       "freshness": "🌱 新鲜观点",
       "path": "Agent系统/实战案例/🚀OpenClaw最强大脑：GPT-5.4深度实测！Agent能力强到离谱！自主完成多轮长链路复杂任务！实测可全自动为其他设备部署小龙虾！OpenClaw教程.md"
@@ -147,7 +167,9 @@
       "title": "🚀OpenClaw高级玩法之跨机器跨Gateway交互：自研A2A协议插件打通多Agent互相通信，Token节省50%【龙虾教程】",
       "file": "🚀OpenClaw高级玩法之跨机器跨Gateway交互：自研A2A协议插件打通多Agent互相通信，Token节省50%【龙虾教程】.md",
       "date": "2026-03-07  ",
+      "dateSort": 1772841600000,
       "score": "⭐⭐  ",
+      "scoreNum": 2,
       "author": "AI超元域",
       "freshness": "🌱 新鲜观点",
       "path": "Agent系统/插件开发/🚀OpenClaw高级玩法之跨机器跨Gateway交互：自研A2A协议插件打通多Agent互相通信，Token节省50%【龙虾教程】.md"
@@ -158,7 +180,9 @@
       "title": "🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent",
       "file": "🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent.md",
       "date": "2026-03-11  ",
+      "dateSort": 1773187200000,
       "score": "⭐⭐  ",
+      "scoreNum": 2,
       "author": "AI超元域",
       "freshness": "🌱 新鲜观点",
       "path": "Agent系统/架构设计/🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent.md"
@@ -169,7 +193,9 @@
       "title": "Seedance 2.0 提示词公式：时间轴切片法",
       "file": "Seedance提示词公式-时间轴切片法.md",
       "date": "2026年  ",
+      "dateSort": 1767225600000,
       "score": "⭐⭐⭐⭐⭐  ",
+      "scoreNum": 5,
       "author": "微信公众号",
       "freshness": "🌿 有参考价值（100个实践案例验证）",
       "path": "AI绘画/提示词技巧/Seedance提示词公式-时间轴切片法.md"
@@ -180,7 +206,9 @@
       "title": "视频 AI 终于长脑子了！实测 VBVR × Wan2.2 Remix：让 AI 视频的物理逻辑大幅提升",
       "file": "视频 AI 终于长脑子了！实测 VBVR × Wan2.2 Remix：让 AI 视频的物理逻辑大幅提升.md",
       "date": "2026-02-26  ",
+      "dateSort": 1772064000000,
       "score": "⭐⭐  ",
+      "scoreNum": 2,
       "author": "三层楼的小肥猴",
       "freshness": "🌱 新鲜观点",
       "path": "AI绘画/提示词技巧/视频 AI 终于长脑子了！实测 VBVR × Wan2.2 Remix：让 AI 视频的物理逻辑大幅提升.md"
@@ -191,7 +219,9 @@
       "title": "LTX2.3 全面进化，数字人、图生视频、文生视频，高清画质工作流",
       "file": "LTX2.3 全面进化，数字人、图生视频、文生视频，高清画质工作流.md",
       "date": "2026-03-07  ",
+      "dateSort": 1772841600000,
       "score": "⭐⭐  ",
+      "scoreNum": 2,
       "author": "三层楼的小肥猴",
       "freshness": "🌱 新鲜观点",
       "path": "AI绘画/模型更新/LTX2.3 全面进化，数字人、图生视频、文生视频，高清画质工作流.md"
@@ -202,7 +232,9 @@
       "title": "LTX2.3又更新了、去除字幕、新增GGUF工作流、报错信息解答",
       "file": "LTX2.3又更新了、去除字幕、新增GGUF工作流、报错信息解答.md",
       "date": "2026-03-08  ",
+      "dateSort": 1772928000000,
       "score": "⭐⭐  ",
+      "scoreNum": 2,
       "author": "三层楼的小肥猴",
       "freshness": "🌱 新鲜观点",
       "path": "AI绘画/模型更新/LTX2.3又更新了、去除字幕、新增GGUF工作流、报错信息解答.md"
