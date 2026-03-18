@@ -105,6 +105,19 @@
         {
           "category": "Agent系统",
           "subCategory": "Skill开发",
+          "title": "Claude Agent Skill搭建AI分镜师",
+          "file": "Claude-Agent-Skill搭建AI分镜师.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "Agent系统/Skill开发/Claude-Agent-Skill搭建AI分镜师.md"
+        },
+        {
+          "category": "Agent系统",
+          "subCategory": "Skill开发",
           "title": "Anthropic官方Claude Skills构建指南",
           "file": "Claude-Skills构建指南.md",
           "date": "2026-03-01  ",
@@ -332,6 +345,19 @@
       "author": "微信公众号「奥大曼的AI营销实验室」",
       "freshness": "📚 经典教程",
       "path": "Agent系统/Skill开发/Anthropic-skill-creator更新-Skills工程化评估.md"
+    },
+    {
+      "category": "Agent系统",
+      "subCategory": "Skill开发",
+      "title": "Claude Agent Skill搭建AI分镜师",
+      "file": "Claude-Agent-Skill搭建AI分镜师.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "Agent系统/Skill开发/Claude-Agent-Skill搭建AI分镜师.md"
     },
     {
       "category": "Agent系统",
