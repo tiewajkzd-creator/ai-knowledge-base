@@ -49,6 +49,21 @@
           "path": "Agent系统/OpenClaw教程/🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent.md"
         }
       ],
+      "Skill开发": [
+        {
+          "category": "Agent系统",
+          "subCategory": "Skill开发",
+          "title": "Anthropic skill-creator 更新：Skills 工程化评估",
+          "file": "Anthropic-skill-creator更新-Skills工程化评估.md",
+          "date": "2026-03-12  ",
+          "dateSort": 1773273600000,
+          "score": "⭐⭐⭐⭐⭐  ",
+          "scoreNum": 5,
+          "author": "微信公众号 | 奥大曼的AI营销实验室",
+          "freshness": "🌿 有参考价值（官方更新+社区验证）",
+          "path": "Agent系统/Skill开发/Anthropic-skill-creator更新-Skills工程化评估.md"
+        }
+      ],
       "实战案例": [],
       "插件开发": [
         {
@@ -128,7 +143,23 @@
       ],
       "问题解决": []
     },
-    "AI编程": {},
+    "AI编程": {
+      "Claude-Code": [
+        {
+          "category": "AI编程",
+          "subCategory": "Claude-Code",
+          "title": "十个顶级 Claude Code Skills 推荐",
+          "file": "十个顶级Claude-Code-Skills推荐.md",
+          "date": "2026-03-12  ",
+          "dateSort": 1773273600000,
+          "score": "⭐⭐⭐⭐⭐  ",
+          "scoreNum": 5,
+          "author": "微信公众号 | Feisky",
+          "freshness": "🌿 有参考价值（实战经验+完整安装命令）",
+          "path": "AI编程/Claude-Code/十个顶级Claude-Code-Skills推荐.md"
+        }
+      ]
+    },
     "AI前沿": {},
     "个人成长": {}
   },
@@ -171,6 +202,19 @@
       "author": "AI超元域",
       "freshness": "🌱 新鲜观点",
       "path": "Agent系统/OpenClaw教程/🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent.md"
+    },
+    {
+      "category": "Agent系统",
+      "subCategory": "Skill开发",
+      "title": "Anthropic skill-creator 更新：Skills 工程化评估",
+      "file": "Anthropic-skill-creator更新-Skills工程化评估.md",
+      "date": "2026-03-12  ",
+      "dateSort": 1773273600000,
+      "score": "⭐⭐⭐⭐⭐  ",
+      "scoreNum": 5,
+      "author": "微信公众号 | 奥大曼的AI营销实验室",
+      "freshness": "🌿 有参考价值（官方更新+社区验证）",
+      "path": "Agent系统/Skill开发/Anthropic-skill-creator更新-Skills工程化评估.md"
     },
     {
       "category": "Agent系统",
@@ -236,6 +280,19 @@
       "author": "三层楼的小肥猴",
       "freshness": "🌱 新鲜观点",
       "path": "AI绘画/模型更新/视频 AI 终于长脑子了！实测 VBVR × Wan2.2 Remix：让 AI 视频的物理逻辑大幅提升.md"
+    },
+    {
+      "category": "AI编程",
+      "subCategory": "Claude-Code",
+      "title": "十个顶级 Claude Code Skills 推荐",
+      "file": "十个顶级Claude-Code-Skills推荐.md",
+      "date": "2026-03-12  ",
+      "dateSort": 1773273600000,
+      "score": "⭐⭐⭐⭐⭐  ",
+      "scoreNum": 5,
+      "author": "微信公众号 | Feisky",
+      "freshness": "🌿 有参考价值（实战经验+完整安装命令）",
+      "path": "AI编程/Claude-Code/十个顶级Claude-Code-Skills推荐.md"
     }
   ]
 }
