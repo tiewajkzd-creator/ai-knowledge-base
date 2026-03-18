@@ -133,7 +133,7 @@
         
         function renderCard(a) {
             return `
-                <div class="article-card" onclick="window.open('${encodeURI(a.path.replace('.md', ''))}')">
+                <div class="article-card" onclick="window.open('${encodeURI(a.path)}')">
                     <div class="article-meta">
                         <span>${a.freshness}</span> | 
                         <span>${a.author}</span> | 
