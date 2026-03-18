@@ -51,6 +51,19 @@
         {
           "category": "Agent系统",
           "subCategory": "OpenClaw教程",
+          "title": "程序员鱼皮的AI编程工具大全",
+          "file": "程序员鱼皮-AI编程工具大全.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "⭐⭐⭐ 95分（开源、全面、实战性强）",
+          "scoreNum": 3,
+          "author": "liyupi/ai",
+          "freshness": "📚 经典教程",
+          "path": "Agent系统/OpenClaw教程/程序员鱼皮-AI编程工具大全.md"
+        },
+        {
+          "category": "Agent系统",
+          "subCategory": "OpenClaw教程",
           "title": "🚀OpenClaw最强大脑：GPT-5.4深度实测！Agent能力强到离谱！自主完成多轮长链路复杂任务！实测可全自动为其他设备部署小龙虾！OpenClaw教程",
           "file": "🚀OpenClaw最强大脑：GPT-5.4深度实测！Agent能力强到离谱！自主完成多轮长链路复杂任务！实测可全自动为其他设备部署小龙虾！OpenClaw教程.md",
           "date": "2026-03-06  ",
@@ -267,6 +280,19 @@
       "author": "Agent",
       "freshness": "📚 经典教程",
       "path": "Agent系统/OpenClaw教程/OpenClaw调用Claude-Code零轮询方案-Hooks与Agent-Teams.md"
+    },
+    {
+      "category": "Agent系统",
+      "subCategory": "OpenClaw教程",
+      "title": "程序员鱼皮的AI编程工具大全",
+      "file": "程序员鱼皮-AI编程工具大全.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "⭐⭐⭐ 95分（开源、全面、实战性强）",
+      "scoreNum": 3,
+      "author": "liyupi/ai",
+      "freshness": "📚 经典教程",
+      "path": "Agent系统/OpenClaw教程/程序员鱼皮-AI编程工具大全.md"
     },
     {
       "category": "Agent系统",
