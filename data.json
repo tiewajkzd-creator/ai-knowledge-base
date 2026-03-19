@@ -161,19 +161,6 @@
           "author": "未知",
           "freshness": "📚 经典教程",
           "path": "AI绘画/工作流教程/Seedance-2.0分镜师Agent团队方案.md"
-        },
-        {
-          "category": "AI绘画",
-          "subCategory": "工作流教程",
-          "title": "SkyReels V4 登顶全球第一：国产视频模型超越谷歌Veo",
-          "file": "SkyReels-V4登顶全球第一-国产视频模型超越Veo.md",
-          "date": "2026-03-19",
-          "dateSort": 1773878400000,
-          "score": "⭐⭐⭐⭐",
-          "scoreNum": 4,
-          "author": "新智元",
-          "freshness": "🌱 新鲜观点",
-          "path": "AI绘画/工作流教程/SkyReels-V4登顶全球第一-国产视频模型超越Veo.md"
         }
       ],
       "工具测评": [],
@@ -372,7 +359,21 @@
       ]
     },
     "AI前沿": {
-      "模型更新": []
+      "模型更新": [
+        {
+          "category": "AI前沿",
+          "subCategory": "模型更新",
+          "title": "SkyReels V4 登顶全球第一：国产视频模型超越谷歌Veo",
+          "file": "SkyReels-V4登顶全球第一-国产视频模型超越Veo.md",
+          "date": "2026-03-19",
+          "dateSort": 1773878400000,
+          "score": "⭐⭐⭐⭐",
+          "scoreNum": 4,
+          "author": "新智元",
+          "freshness": "🌱 新鲜观点",
+          "path": "AI前沿/模型更新/SkyReels-V4登顶全球第一-国产视频模型超越Veo.md"
+        }
+      ]
     },
     "个人成长": {}
   },
@@ -519,19 +520,6 @@
       "author": "未知",
       "freshness": "📚 经典教程",
       "path": "AI绘画/工作流教程/Seedance-2.0分镜师Agent团队方案.md"
-    },
-    {
-      "category": "AI绘画",
-      "subCategory": "工作流教程",
-      "title": "SkyReels V4 登顶全球第一：国产视频模型超越谷歌Veo",
-      "file": "SkyReels-V4登顶全球第一-国产视频模型超越Veo.md",
-      "date": "2026-03-19",
-      "dateSort": 1773878400000,
-      "score": "⭐⭐⭐⭐",
-      "scoreNum": 4,
-      "author": "新智元",
-      "freshness": "🌱 新鲜观点",
-      "path": "AI绘画/工作流教程/SkyReels-V4登顶全球第一-国产视频模型超越Veo.md"
     },
     {
       "category": "AI绘画",
@@ -714,6 +702,19 @@
       "author": "微信公众号「Feisky」",
       "freshness": "📚 经典教程",
       "path": "AI编程/Claude-Code/十个顶级Claude-Code-Skills推荐.md"
+    },
+    {
+      "category": "AI前沿",
+      "subCategory": "模型更新",
+      "title": "SkyReels V4 登顶全球第一：国产视频模型超越谷歌Veo",
+      "file": "SkyReels-V4登顶全球第一-国产视频模型超越Veo.md",
+      "date": "2026-03-19",
+      "dateSort": 1773878400000,
+      "score": "⭐⭐⭐⭐",
+      "scoreNum": 4,
+      "author": "新智元",
+      "freshness": "🌱 新鲜观点",
+      "path": "AI前沿/模型更新/SkyReels-V4登顶全球第一-国产视频模型超越Veo.md"
     }
   ]
 }
