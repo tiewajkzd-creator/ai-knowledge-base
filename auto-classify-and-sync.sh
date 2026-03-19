@@ -75,16 +75,16 @@ fi
 if [ "$PROMPT_VAULT_SCORE" -ge 50 ]; then
     TARGET_DIR="AI绘画/提示词收录"
     echo "🗂️ 识别为提示词收录内容（置信度: ${PROMPT_VAULT_SCORE}分）"
+elif echo "$CONTENT" | grep -q "#OpenClaw\|#OpenAWS\|#RHClaw\|#RunningHub"; then
+    TARGET_DIR="Agent系统/OpenClaw教程"
 elif echo "$CONTENT" | grep -q "#模型更新\|#AI前沿"; then
     TARGET_DIR="AI前沿/模型更新"
-elif echo "$CONTENT" | grep -q "#AI视频\|#分镜\|#Seedance\|#提示词工程"; then
-    TARGET_DIR="AI绘画/工作流教程"
 elif echo "$CONTENT" | grep -q "#Agent系统\|#Skill开发\|#Claude.*Skill"; then
     TARGET_DIR="Agent系统/Skill开发"
 elif echo "$CONTENT" | grep -q "#AI编程\|#Claude.*Code\|#Cursor"; then
     TARGET_DIR="AI编程/Claude-Code"
-elif echo "$CONTENT" | grep -q "#OpenClaw\|#OpenAWS"; then
-    TARGET_DIR="Agent系统/OpenClaw教程"
+elif echo "$CONTENT" | grep -q "#AI视频\|#分镜\|#Seedance\|#提示词工程"; then
+    TARGET_DIR="AI绘画/工作流教程"
 elif echo "$CONTENT" | grep -q "#AI前沿\|#模型更新"; then
     TARGET_DIR="AI前沿/模型更新"
 else
