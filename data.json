@@ -25,6 +25,19 @@
         {
           "category": "Agent系统",
           "subCategory": "OpenClaw教程",
+          "title": "深度解析：如何让 OpenClaw Multi-Agent 系统实现自我发现、自修复与持续进化",
+          "file": "OpenClaw-MultiAgent自我发现自修复与持续进化.md",
+          "date": "2026-03-19",
+          "dateSort": 1773878400000,
+          "score": "⭐⭐⭐⭐⭐",
+          "scoreNum": 5,
+          "author": "Amyssjj",
+          "freshness": "🌱 新鲜观点",
+          "path": "Agent系统/OpenClaw教程/OpenClaw-MultiAgent自我发现自修复与持续进化.md"
+        },
+        {
+          "category": "Agent系统",
+          "subCategory": "OpenClaw教程",
           "title": "创作的终极组合拳！OpenClaw + Seedance 2.0 + RunningHub Skill 教程",
           "file": "OpenClaw-Seedance-RunningHub-Skill终极组合拳教程.md",
           "date": "2026-03-19",
@@ -403,6 +416,19 @@
       "author": "微信公众号 Datawhale",
       "freshness": "🌿 有参考价值（真实生产案例，200+段完整内容）",
       "path": "Agent系统/OpenClaw教程/OpenClaw-Claude-Code实践案例.md"
+    },
+    {
+      "category": "Agent系统",
+      "subCategory": "OpenClaw教程",
+      "title": "深度解析：如何让 OpenClaw Multi-Agent 系统实现自我发现、自修复与持续进化",
+      "file": "OpenClaw-MultiAgent自我发现自修复与持续进化.md",
+      "date": "2026-03-19",
+      "dateSort": 1773878400000,
+      "score": "⭐⭐⭐⭐⭐",
+      "scoreNum": 5,
+      "author": "Amyssjj",
+      "freshness": "🌱 新鲜观点",
+      "path": "Agent系统/OpenClaw教程/OpenClaw-MultiAgent自我发现自修复与持续进化.md"
     },
     {
       "category": "Agent系统",
