@@ -47,7 +47,7 @@
         let currentCategory = 'Agent系统';
         let currentFilter = 'all';
         
-        fetch('data.json')
+        fetch('data.json?t=' + Date.now())
             .then(r => r.json())
             .then(d => {
                 data = d;
