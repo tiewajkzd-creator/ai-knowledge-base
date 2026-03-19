@@ -23,9 +23,58 @@ fi
 # 读取文章内容进行分类
 CONTENT=$(cat "$ARTICLE_PATH")
 
-# 提取标签判断分类
+# ============================================
+# 提示词收录 智能识别（多信号打分机制）
+# ============================================
+PROMPT_VAULT_SCORE=0
+
+# 信号1：显式标签（直接命中，最高优先）
 if echo "$CONTENT" | grep -q "#提示词收录\|#PromptVault\|#提示词素材"; then
+    PROMPT_VAULT_SCORE=100
+fi
+
+# 仅在未直接命中时才走打分逻辑
+if [ "$PROMPT_VAULT_SCORE" -lt 100 ]; then
+    # 信号2：含生图参数（高权重 +30）
+    if echo "$CONTENT" | grep -qE -- '--ar\s|--style\s|--v\s|--quality\s|--q\s|--seed\s|--niji|--chaos\s|Steps:\s|CFG:\s|Sampler:'; then
+        PROMPT_VAULT_SCORE=$((PROMPT_VAULT_SCORE + 30))
+    fi
+
+    # 信号3：含负面提示词标记（高权重 +30）
+    if echo "$CONTENT" | grep -qi "negative prompt\|负面提示词\|反向提示词\|Negative:"; then
+        PROMPT_VAULT_SCORE=$((PROMPT_VAULT_SCORE + 30))
+    fi
+
+    # 信号4：标题含提示词分享意图（中权重 +25）
+    if echo "$ARTICLE_TITLE" | grep -qi "提示词分享\|prompt分享\|咒语\|魔法词\|提示词合集\|prompt collection\|收录"; then
+        PROMPT_VAULT_SCORE=$((PROMPT_VAULT_SCORE + 25))
+    fi
+
+    # 信号5：含目标模型字段（中权重 +20）
+    if echo "$CONTENT" | grep -q "**目标模型：**\|**模型：**\|target_model"; then
+        PROMPT_VAULT_SCORE=$((PROMPT_VAULT_SCORE + 20))
+    fi
+
+    # 信号6：来源为提示词平台（中权重 +20）
+    if echo "$CONTENT" | grep -qi "civitai\|liblib\|nanobanana\|prompthero\|lexica\.art"; then
+        PROMPT_VAULT_SCORE=$((PROMPT_VAULT_SCORE + 20))
+    fi
+
+    # 信号7：含代码块且内容像英文prompt而非代码（中权重 +15）
+    # 检查代码块中是否含有典型prompt词汇但不含编程关键词
+    if echo "$CONTENT" | grep -qP '```[\s\S]*?(masterpiece|best quality|highly detailed|8k|photorealistic|cinematic|anime|illustration)' 2>/dev/null; then
+        PROMPT_VAULT_SCORE=$((PROMPT_VAULT_SCORE + 15))
+    fi
+fi
+
+# ============================================
+# 分类决策
+# ============================================
+
+# 提示词收录：分数≥50 即归入
+if [ "$PROMPT_VAULT_SCORE" -ge 50 ]; then
     TARGET_DIR="AI绘画/提示词收录"
+    echo "🗂️ 识别为提示词收录内容（置信度: ${PROMPT_VAULT_SCORE}分）"
 elif echo "$CONTENT" | grep -q "#AI视频\|#分镜\|#Seedance\|#提示词工程"; then
     TARGET_DIR="AI绘画/工作流教程"
 elif echo "$CONTENT" | grep -q "#Agent系统\|#Skill开发\|#Claude.*Skill"; then
