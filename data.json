@@ -12,6 +12,19 @@
         {
           "category": "Agent系统",
           "subCategory": "OpenClaw教程",
+          "title": "实测 Mimo-V2-Omni + OpenClaw 新技能",
+          "file": "Mimo-V2-Omni-OpenClaw实测.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "Agent系统/OpenClaw教程/Mimo-V2-Omni-OpenClaw实测.md"
+        },
+        {
+          "category": "Agent系统",
+          "subCategory": "OpenClaw教程",
           "title": "OpenClaw + Claude Code：一个人搭建完整开发团队（完整版）",
           "file": "OpenClaw-Claude-Code实践案例.md",
           "date": "2026年1月  ",
@@ -404,6 +417,19 @@
     "个人成长": {}
   },
   "articles": [
+    {
+      "category": "Agent系统",
+      "subCategory": "OpenClaw教程",
+      "title": "实测 Mimo-V2-Omni + OpenClaw 新技能",
+      "file": "Mimo-V2-Omni-OpenClaw实测.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "Agent系统/OpenClaw教程/Mimo-V2-Omni-OpenClaw实测.md"
+    },
     {
       "category": "Agent系统",
       "subCategory": "OpenClaw教程",
