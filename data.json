@@ -4,7 +4,8 @@
     "AI绘画": "🎨",
     "AI编程": "💻",
     "AI前沿": "🔭",
-    "个人成长": "📖"
+    "个人成长": "📖",
+    "模型动态": "🧬"
   },
   "grouped": {
     "Agent系统": {
@@ -441,7 +442,24 @@
         }
       ]
     },
-    "个人成长": {}
+    "个人成长": {},
+    "模型动态": {
+      "使用指南": [
+        {
+          "category": "模型动态",
+          "subCategory": "使用指南",
+          "title": "🧬 模型动态使用指南",
+          "file": "README.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "AI大脑+知识库",
+          "freshness": "📚 经典教程",
+          "path": "模型动态/README.md"
+        }
+      ]
+    }
   },
   "articles": [
     {
@@ -846,6 +864,19 @@
       "author": "新智元",
       "freshness": "🌱 新鲜观点",
       "path": "AI前沿/模型更新/SkyReels-V4登顶全球第一-国产视频模型超越Veo.md"
+    },
+    {
+      "category": "模型动态",
+      "subCategory": "使用指南",
+      "title": "🧬 模型动态使用指南",
+      "file": "README.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "AI大脑+知识库",
+      "freshness": "📚 经典教程",
+      "path": "模型动态/README.md"
     }
   ]
 }
