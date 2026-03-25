@@ -4,12 +4,24 @@
     "AI绘画": "🎨",
     "AI编程": "💻",
     "AI前沿": "🔭",
-    "个人成长": "📖",
-    "模型动态": "🧬"
+    "个人成长": "📖"
   },
   "grouped": {
     "Agent系统": {
       "OpenClaw教程": [
+        {
+          "category": "Agent系统",
+          "subCategory": "OpenClaw教程",
+          "title": "Claude Computer Use + Dispatch 操控电脑教程",
+          "file": "Claude-Computer-Use和Dispatch操控电脑教程.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "Agent系统/OpenClaw教程/Claude-Computer-Use和Dispatch操控电脑教程.md"
+        },
         {
           "category": "Agent系统",
           "subCategory": "OpenClaw教程",
@@ -442,26 +454,22 @@
         }
       ]
     },
-    "个人成长": {},
-    "模型动态": {
-      "使用指南": [
-        {
-          "category": "模型动态",
-          "subCategory": "使用指南",
-          "title": "🧬 模型动态使用指南",
-          "file": "README.md",
-          "date": "",
-          "dateSort": 0,
-          "score": "",
-          "scoreNum": 0,
-          "author": "AI大脑+知识库",
-          "freshness": "📚 经典教程",
-          "path": "模型动态/README.md"
-        }
-      ]
-    }
+    "个人成长": {}
   },
   "articles": [
+    {
+      "category": "Agent系统",
+      "subCategory": "OpenClaw教程",
+      "title": "Claude Computer Use + Dispatch 操控电脑教程",
+      "file": "Claude-Computer-Use和Dispatch操控电脑教程.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "Agent系统/OpenClaw教程/Claude-Computer-Use和Dispatch操控电脑教程.md"
+    },
     {
       "category": "Agent系统",
       "subCategory": "OpenClaw教程",
@@ -864,19 +872,6 @@
       "author": "新智元",
       "freshness": "🌱 新鲜观点",
       "path": "AI前沿/模型更新/SkyReels-V4登顶全球第一-国产视频模型超越Veo.md"
-    },
-    {
-      "category": "模型动态",
-      "subCategory": "使用指南",
-      "title": "🧬 模型动态使用指南",
-      "file": "README.md",
-      "date": "",
-      "dateSort": 0,
-      "score": "",
-      "scoreNum": 0,
-      "author": "AI大脑+知识库",
-      "freshness": "📚 经典教程",
-      "path": "模型动态/README.md"
     }
   ]
 }
