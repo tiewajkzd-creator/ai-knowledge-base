@@ -144,6 +144,19 @@
         {
           "category": "Agent系统",
           "subCategory": "Skill开发",
+          "title": "50分钟掌握OpenClaw用MCP完全接管浏览器-上",
+          "file": "50分钟掌握OpenClaw用MCP完全接管浏览器-上.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "Agent系统/Skill开发/50分钟掌握OpenClaw用MCP完全接管浏览器-上.md"
+        },
+        {
+          "category": "Agent系统",
+          "subCategory": "Skill开发",
           "title": "Anthropic skill-creator更新 - Skills工程化评估",
           "file": "Anthropic-skill-creator更新-Skills工程化评估.md",
           "date": "2026-03-12  ",
@@ -614,6 +627,19 @@
       "author": "AI超元域",
       "freshness": "🌱 新鲜观点",
       "path": "Agent系统/OpenClaw教程/🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent.md"
+    },
+    {
+      "category": "Agent系统",
+      "subCategory": "Skill开发",
+      "title": "50分钟掌握OpenClaw用MCP完全接管浏览器-上",
+      "file": "50分钟掌握OpenClaw用MCP完全接管浏览器-上.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "Agent系统/Skill开发/50分钟掌握OpenClaw用MCP完全接管浏览器-上.md"
     },
     {
       "category": "Agent系统",
