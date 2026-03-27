@@ -448,6 +448,21 @@
           "freshness": "📚 经典教程",
           "path": "AI编程/Claude-Code/十个顶级Claude-Code-Skills推荐.md"
         }
+      ],
+      "工具指南": [
+        {
+          "category": "AI编程",
+          "subCategory": "工具指南",
+          "title": "ComfyUI 动态显存：让本地模型摆脱内存占用危机",
+          "file": "ComfyUI动态显存-Dynamic-VRAM官方详解.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "AI编程/工具指南/ComfyUI动态显存-Dynamic-VRAM官方详解.md"
+        }
       ]
     },
     "AI前沿": {
@@ -885,6 +900,19 @@
       "author": "微信公众号「Feisky」",
       "freshness": "📚 经典教程",
       "path": "AI编程/Claude-Code/十个顶级Claude-Code-Skills推荐.md"
+    },
+    {
+      "category": "AI编程",
+      "subCategory": "工具指南",
+      "title": "ComfyUI 动态显存：让本地模型摆脱内存占用危机",
+      "file": "ComfyUI动态显存-Dynamic-VRAM官方详解.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "AI编程/工具指南/ComfyUI动态显存-Dynamic-VRAM官方详解.md"
     },
     {
       "category": "AI前沿",
