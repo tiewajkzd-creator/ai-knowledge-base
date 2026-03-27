@@ -217,6 +217,19 @@
         {
           "category": "AI绘画",
           "subCategory": "工作流教程",
+          "title": "ComfyUI 动态显存：让本地模型摆脱内存占用危机",
+          "file": "ComfyUI动态显存-Dynamic-VRAM官方详解.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "AI绘画/工作流教程/ComfyUI动态显存-Dynamic-VRAM官方详解.md"
+        },
+        {
+          "category": "AI绘画",
+          "subCategory": "工作流教程",
           "title": "Gemini 电影级分镜九宫格提示词教程",
           "file": "Gemini电影级分镜九宫格提示词教程.md",
           "date": "",
@@ -254,6 +267,7 @@
           "path": "AI绘画/工作流教程/Seedance2.0-80个导演级运镜提示词.md"
         }
       ],
+      "工具指南": [],
       "工具测评": [],
       "提示词库": [],
       "提示词技巧": [
@@ -449,21 +463,7 @@
           "path": "AI编程/Claude-Code/十个顶级Claude-Code-Skills推荐.md"
         }
       ],
-      "工具指南": [
-        {
-          "category": "AI编程",
-          "subCategory": "工具指南",
-          "title": "ComfyUI 动态显存：让本地模型摆脱内存占用危机",
-          "file": "ComfyUI动态显存-Dynamic-VRAM官方详解.md",
-          "date": "",
-          "dateSort": 0,
-          "score": "",
-          "scoreNum": 0,
-          "author": "未知",
-          "freshness": "📚 经典教程",
-          "path": "AI编程/工具指南/ComfyUI动态显存-Dynamic-VRAM官方详解.md"
-        }
-      ]
+      "工具指南": []
     },
     "AI前沿": {
       "模型更新": [
@@ -679,6 +679,19 @@
       "author": "未知",
       "freshness": "📚 经典教程",
       "path": "AI绘画/工作流教程/CC-Skills-镜头序列设计-2.5万字教程.md"
+    },
+    {
+      "category": "AI绘画",
+      "subCategory": "工作流教程",
+      "title": "ComfyUI 动态显存：让本地模型摆脱内存占用危机",
+      "file": "ComfyUI动态显存-Dynamic-VRAM官方详解.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "AI绘画/工作流教程/ComfyUI动态显存-Dynamic-VRAM官方详解.md"
     },
     {
       "category": "AI绘画",
@@ -900,19 +913,6 @@
       "author": "微信公众号「Feisky」",
       "freshness": "📚 经典教程",
       "path": "AI编程/Claude-Code/十个顶级Claude-Code-Skills推荐.md"
-    },
-    {
-      "category": "AI编程",
-      "subCategory": "工具指南",
-      "title": "ComfyUI 动态显存：让本地模型摆脱内存占用危机",
-      "file": "ComfyUI动态显存-Dynamic-VRAM官方详解.md",
-      "date": "",
-      "dateSort": 0,
-      "score": "",
-      "scoreNum": 0,
-      "author": "未知",
-      "freshness": "📚 经典教程",
-      "path": "AI编程/工具指南/ComfyUI动态显存-Dynamic-VRAM官方详解.md"
     },
     {
       "category": "AI前沿",
