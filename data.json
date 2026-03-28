@@ -493,6 +493,21 @@
           "freshness": "🌱 新鲜观点",
           "path": "AI前沿/模型更新/SkyReels-V4登顶全球第一-国产视频模型超越Veo.md"
         }
+      ],
+      "资讯速览": [
+        {
+          "category": "AI前沿",
+          "subCategory": "资讯速览",
+          "title": "Deep-Live-Cam — 实时AI换脸工具",
+          "file": "Deep-Live-Cam实时换脸工具.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "AI前沿/资讯速览/Deep-Live-Cam实时换脸工具.md"
+        }
       ]
     },
     "个人成长": {}
@@ -952,6 +967,19 @@
       "author": "新智元",
       "freshness": "🌱 新鲜观点",
       "path": "AI前沿/模型更新/SkyReels-V4登顶全球第一-国产视频模型超越Veo.md"
+    },
+    {
+      "category": "AI前沿",
+      "subCategory": "资讯速览",
+      "title": "Deep-Live-Cam — 实时AI换脸工具",
+      "file": "Deep-Live-Cam实时换脸工具.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "AI前沿/资讯速览/Deep-Live-Cam实时换脸工具.md"
     }
   ]
 }
