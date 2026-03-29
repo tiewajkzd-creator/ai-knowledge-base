@@ -507,6 +507,19 @@
           "author": "未知",
           "freshness": "📚 经典教程",
           "path": "AI前沿/资讯速览/Deep-Live-Cam实时换脸工具.md"
+        },
+        {
+          "category": "AI前沿",
+          "subCategory": "资讯速览",
+          "title": "飞书 CLI 开源：Claude Code 丝滑操控飞书",
+          "file": "feishu-cli-opensource.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "AI前沿/资讯速览/feishu-cli-opensource.md"
         }
       ]
     },
@@ -980,6 +993,19 @@
       "author": "未知",
       "freshness": "📚 经典教程",
       "path": "AI前沿/资讯速览/Deep-Live-Cam实时换脸工具.md"
+    },
+    {
+      "category": "AI前沿",
+      "subCategory": "资讯速览",
+      "title": "飞书 CLI 开源：Claude Code 丝滑操控飞书",
+      "file": "feishu-cli-opensource.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "AI前沿/资讯速览/feishu-cli-opensource.md"
     }
   ]
 }
