@@ -465,6 +465,19 @@
         {
           "category": "AI编程",
           "subCategory": "Claude-Code",
+          "title": "我把 Claude Code 接进微信后，才发现它比\"龙虾\"更像生活助手",
+          "file": "claude-code-wechat-bridge.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "AI编程/Claude-Code/claude-code-wechat-bridge.md"
+        },
+        {
+          "category": "AI编程",
+          "subCategory": "Claude-Code",
           "title": "十个顶级Claude Code Skills推荐",
           "file": "十个顶级Claude-Code-Skills推荐.md",
           "date": "2026-03-12  ",
@@ -954,6 +967,19 @@
       "author": "微信公众号「想象力AI」",
       "freshness": "📚 经典教程",
       "path": "AI编程/Claude-Code/Claude-Code情报中心.md"
+    },
+    {
+      "category": "AI编程",
+      "subCategory": "Claude-Code",
+      "title": "我把 Claude Code 接进微信后，才发现它比\"龙虾\"更像生活助手",
+      "file": "claude-code-wechat-bridge.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "AI编程/Claude-Code/claude-code-wechat-bridge.md"
     },
     {
       "category": "AI编程",
