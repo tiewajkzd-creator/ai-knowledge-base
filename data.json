@@ -493,6 +493,19 @@
         {
           "category": "AI编程",
           "subCategory": "工具指南",
+          "title": "Claude Code 源码泄漏：51万行代码里藏着什么",
+          "file": "Claude-Code-51万行源码分析.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "AI编程/工具指南/Claude-Code-51万行源码分析.md"
+        },
+        {
+          "category": "AI编程",
+          "subCategory": "工具指南",
           "title": "盘一下Claude Code源码里的8个隐藏新功能",
           "file": "Claude-Code-8个隐藏新功能.md",
           "date": "",
@@ -1046,6 +1059,19 @@
       "author": "微信公众号「Feisky」",
       "freshness": "📚 经典教程",
       "path": "AI编程/Claude-Code/十个顶级Claude-Code-Skills推荐.md"
+    },
+    {
+      "category": "AI编程",
+      "subCategory": "工具指南",
+      "title": "Claude Code 源码泄漏：51万行代码里藏着什么",
+      "file": "Claude-Code-51万行源码分析.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "AI编程/工具指南/Claude-Code-51万行源码分析.md"
     },
     {
       "category": "AI编程",
