@@ -551,6 +551,19 @@
         {
           "category": "AI前沿",
           "subCategory": "资讯速览",
+          "title": "215项SOTA + 自然涌现Vibe Coding！Qwen3.5-Omni发布",
+          "file": "Qwen35-Omni发布.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "AI前沿/资讯速览/Qwen35-Omni发布.md"
+        },
+        {
+          "category": "AI前沿",
+          "subCategory": "资讯速览",
           "title": "飞书 CLI 开源：Claude Code 丝滑操控飞书",
           "file": "feishu-cli-opensource.md",
           "date": "",
@@ -1072,6 +1085,19 @@
       "author": "未知",
       "freshness": "📚 经典教程",
       "path": "AI前沿/资讯速览/LTX-Desktop开源AI剪辑软件.md"
+    },
+    {
+      "category": "AI前沿",
+      "subCategory": "资讯速览",
+      "title": "215项SOTA + 自然涌现Vibe Coding！Qwen3.5-Omni发布",
+      "file": "Qwen35-Omni发布.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "AI前沿/资讯速览/Qwen35-Omni发布.md"
     },
     {
       "category": "AI前沿",
