@@ -521,6 +521,19 @@
         {
           "category": "AI编程",
           "subCategory": "工具指南",
+          "title": "给Claude装上这10个Skills，让你拥有自己的顶尖视觉设计师",
+          "file": "Claude-Code-10个视觉设计Skills.md",
+          "date": "2026/04/01 16:39:48",
+          "dateSort": 0,
+          "score": "⭐⭐⭐⭐⭐",
+          "scoreNum": 5,
+          "author": "微信公众号「橘宝」",
+          "freshness": "📚 经典教程",
+          "path": "AI编程/工具指南/Claude-Code-10个视觉设计Skills.md"
+        },
+        {
+          "category": "AI编程",
+          "subCategory": "工具指南",
           "title": "15 条高频实用的 Claude Code 技巧",
           "file": "Claude-Code-15-条高频技巧.md",
           "date": "2026年",
@@ -1152,6 +1165,19 @@
       "author": "微信公众号「Feisky」",
       "freshness": "📚 经典教程",
       "path": "AI编程/Claude-Code/十个顶级Claude-Code-Skills推荐.md"
+    },
+    {
+      "category": "AI编程",
+      "subCategory": "工具指南",
+      "title": "给Claude装上这10个Skills，让你拥有自己的顶尖视觉设计师",
+      "file": "Claude-Code-10个视觉设计Skills.md",
+      "date": "2026/04/01 16:39:48",
+      "dateSort": 0,
+      "score": "⭐⭐⭐⭐⭐",
+      "scoreNum": 5,
+      "author": "微信公众号「橘宝」",
+      "freshness": "📚 经典教程",
+      "path": "AI编程/工具指南/Claude-Code-10个视觉设计Skills.md"
     },
     {
       "category": "AI编程",
