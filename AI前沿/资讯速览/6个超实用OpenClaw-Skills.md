@@ -100,15 +100,15 @@
 
 ## 安装命令速查
 
-| Skill | 安装命令 |
-|-------|---------|
-| diagram-generator | `npx skills add` 对应包名 |
-| pptx | `npx skills add` 对应包名 |
-| ship-learn-next | `npx skills add` 对应包名 |
-| personal-assistant | `npx skills add` 对应包名 |
-| Humanizer-zh | `npx skills add` 对应包名 |
+| 文章阶段 | Skill | 包名 | 安装命令 | 安装量 |
+|---------|-------|------|---------|--------|
+| 阶段二-1 | **diagram-generator** | `oimiragieo/agent-studio/diagram-generator` | `npx skills add oimiragieo/agent-studio/diagram-generator -g -y` | 103 |
+| 阶段二-2 | **pptx** | `anthropics/skills/pptx` | `npx skills add anthropics/skills/pptx -g -y` | 51,956 |
+| 阶段三 | **ship-learn-next** | `softaworks/agent-toolkit/ship-learn-next` | `npx skills add softaworks/agent-toolkit/ship-learn-next -g -y` | 3,490 |
+| 阶段四 | **personal-assistant** | `ailabs-393/ai-labs-claude-skills/personal-assistant` | `npx skills add ailabs-393/ai-labs-claude-skills/personal-assistant -g -y` | 1,380 |
+| 阶段五 | **Humanizer-zh** | `op7418/humanizer-zh/humanizer-zh` | `npx skills add op7418/humanizer-zh/humanizer-zh -g -y` | 11,039 |
 
-> 注：具体安装命令需在 skills.sh 或 ClawHub 查找对应包名
+> 注：以上包名通过 skills.sh API 搜索获得，具体功能描述详见各 Skill 官方文档。
 
 ---
 
