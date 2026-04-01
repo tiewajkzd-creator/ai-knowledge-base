@@ -631,6 +631,19 @@
         {
           "category": "AI前沿",
           "subCategory": "资讯速览",
+          "title": "「实用至上」6个超实用Skills让你的OpenClaw超进化",
+          "file": "6个超实用OpenClaw-Skills.md",
+          "date": "2026-02-04 15:10:01",
+          "dateSort": 1770163200000,
+          "score": "⭐⭐⭐⭐",
+          "scoreNum": 4,
+          "author": "腾讯云开发者社区「meme猫」",
+          "freshness": "📚 经典教程",
+          "path": "AI前沿/资讯速览/6个超实用OpenClaw-Skills.md"
+        },
+        {
+          "category": "AI前沿",
+          "subCategory": "资讯速览",
           "title": "吴恩达 Agent Skills 学习笔记：从入门到必知必会",
           "file": "Agent-Skills-吴恩达学习笔记.md",
           "date": "2026/03/18 07:35:24",
@@ -1295,6 +1308,19 @@
       "author": "新智元",
       "freshness": "🌱 新鲜观点",
       "path": "AI前沿/模型更新/SkyReels-V4登顶全球第一-国产视频模型超越Veo.md"
+    },
+    {
+      "category": "AI前沿",
+      "subCategory": "资讯速览",
+      "title": "「实用至上」6个超实用Skills让你的OpenClaw超进化",
+      "file": "6个超实用OpenClaw-Skills.md",
+      "date": "2026-02-04 15:10:01",
+      "dateSort": 1770163200000,
+      "score": "⭐⭐⭐⭐",
+      "scoreNum": 4,
+      "author": "腾讯云开发者社区「meme猫」",
+      "freshness": "📚 经典教程",
+      "path": "AI前沿/资讯速览/6个超实用OpenClaw-Skills.md"
     },
     {
       "category": "AI前沿",
