@@ -213,6 +213,7 @@
       "架构设计": []
     },
     "AI绘画": {
+      "AI视频": [],
       "ComfyUI": [],
       "工作流教程": [
         {
@@ -292,6 +293,19 @@
           "author": "未知",
           "freshness": "📚 经典教程",
           "path": "AI绘画/工作流教程/Seedance2.0-80个导演级运镜提示词.md"
+        },
+        {
+          "category": "AI绘画",
+          "subCategory": "工作流教程",
+          "title": "Seedance基础 - 导演思维：从「会用工具」到「会做片子」",
+          "file": "Seedance导演思维-视听语言.md",
+          "date": "2026/03/04 15:39:54",
+          "dateSort": 0,
+          "score": "⭐⭐⭐⭐⭐",
+          "scoreNum": 5,
+          "author": "微信公众号「孟令卿」",
+          "freshness": "📚 经典教程",
+          "path": "AI绘画/工作流教程/Seedance导演思维-视听语言.md"
         }
       ],
       "工具指南": [],
@@ -930,6 +944,19 @@
       "author": "未知",
       "freshness": "📚 经典教程",
       "path": "AI绘画/工作流教程/Seedance2.0-80个导演级运镜提示词.md"
+    },
+    {
+      "category": "AI绘画",
+      "subCategory": "工作流教程",
+      "title": "Seedance基础 - 导演思维：从「会用工具」到「会做片子」",
+      "file": "Seedance导演思维-视听语言.md",
+      "date": "2026/03/04 15:39:54",
+      "dateSort": 0,
+      "score": "⭐⭐⭐⭐⭐",
+      "scoreNum": 5,
+      "author": "微信公众号「孟令卿」",
+      "freshness": "📚 经典教程",
+      "path": "AI绘画/工作流教程/Seedance导演思维-视听语言.md"
     },
     {
       "category": "AI绘画",
