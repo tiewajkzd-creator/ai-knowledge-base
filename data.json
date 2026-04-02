@@ -683,6 +683,19 @@
         {
           "category": "AI前沿",
           "subCategory": "资讯速览",
+          "title": "GLM-5V-Turbo发布：多模态Coding基座模型",
+          "file": "GLM-5V-Turbo多模态Coding基座模型.md",
+          "date": "2026/04/02 08:06:25",
+          "dateSort": 0,
+          "score": "⭐⭐⭐⭐⭐",
+          "scoreNum": 5,
+          "author": "微信公众号（智谱）",
+          "freshness": "📚 经典教程",
+          "path": "AI前沿/资讯速览/GLM-5V-Turbo多模态Coding基座模型.md"
+        },
+        {
+          "category": "AI前沿",
+          "subCategory": "资讯速览",
           "title": "PR和剪映要慌了？全球首款原生AI剪辑软件LTX Desktop免费开源了",
           "file": "LTX-Desktop开源AI剪辑软件.md",
           "date": "",
@@ -1360,6 +1373,19 @@
       "author": "未知",
       "freshness": "📚 经典教程",
       "path": "AI前沿/资讯速览/Deep-Live-Cam实时换脸工具.md"
+    },
+    {
+      "category": "AI前沿",
+      "subCategory": "资讯速览",
+      "title": "GLM-5V-Turbo发布：多模态Coding基座模型",
+      "file": "GLM-5V-Turbo多模态Coding基座模型.md",
+      "date": "2026/04/02 08:06:25",
+      "dateSort": 0,
+      "score": "⭐⭐⭐⭐⭐",
+      "scoreNum": 5,
+      "author": "微信公众号（智谱）",
+      "freshness": "📚 经典教程",
+      "path": "AI前沿/资讯速览/GLM-5V-Turbo多模态Coding基座模型.md"
     },
     {
       "category": "AI前沿",
