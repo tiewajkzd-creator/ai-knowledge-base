@@ -258,6 +258,19 @@
         {
           "category": "AI绘画",
           "subCategory": "工作流教程",
+          "title": "Gemini提示词反推教程！\"图生图\"来了",
+          "file": "Gemini提示词反推-图生图教程.md",
+          "date": "2026-03-25 14:38",
+          "dateSort": 1774396800000,
+          "score": "",
+          "scoreNum": 0,
+          "author": "微信公众号「MetaChat AI工具箱」| **作者：** 小元子",
+          "freshness": "📚 经典教程",
+          "path": "AI绘画/工作流教程/Gemini提示词反推-图生图教程.md"
+        },
+        {
+          "category": "AI绘画",
+          "subCategory": "工作流教程",
           "title": "Gemini 电影级分镜九宫格提示词教程",
           "file": "Gemini电影级分镜九宫格提示词教程.md",
           "date": "",
@@ -337,6 +350,7 @@
       "工具": [],
       "工具指南": [],
       "工具测评": [],
+      "提示词工程": [],
       "提示词库": [],
       "提示词技巧": [
         {
@@ -998,6 +1012,19 @@
       "author": "未知",
       "freshness": "📚 经典教程",
       "path": "AI绘画/工作流教程/ComfyUI动态显存-Dynamic-VRAM官方详解.md"
+    },
+    {
+      "category": "AI绘画",
+      "subCategory": "工作流教程",
+      "title": "Gemini提示词反推教程！\"图生图\"来了",
+      "file": "Gemini提示词反推-图生图教程.md",
+      "date": "2026-03-25 14:38",
+      "dateSort": 1774396800000,
+      "score": "",
+      "scoreNum": 0,
+      "author": "微信公众号「MetaChat AI工具箱」| **作者：** 小元子",
+      "freshness": "📚 经典教程",
+      "path": "AI绘画/工作流教程/Gemini提示词反推-图生图教程.md"
     },
     {
       "category": "AI绘画",
