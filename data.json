@@ -612,6 +612,7 @@
       ]
     },
     "AI前沿": {
+      "Agent": [],
       "模型更新": [
         {
           "category": "AI前沿",
@@ -731,6 +732,19 @@
           "author": "未知",
           "freshness": "📚 经典教程",
           "path": "AI前沿/资讯速览/feishu-cli-opensource.md"
+        },
+        {
+          "category": "AI前沿",
+          "subCategory": "资讯速览",
+          "title": "我用1400年前的三省六部制，搞了一套很酷的多Agent协同方案",
+          "file": "我用1400年前的三省六部制-搞了一套很酷的多Agent协同方案.md",
+          "date": "2026-04-02 10:20",
+          "dateSort": 1775088000000,
+          "score": "",
+          "scoreNum": 0,
+          "author": "微信公众号 | **作者：** 数字生命卡兹克",
+          "freshness": "📚 经典教程",
+          "path": "AI前沿/资讯速览/我用1400年前的三省六部制-搞了一套很酷的多Agent协同方案.md"
         }
       ]
     },
@@ -1425,6 +1439,19 @@
       "author": "未知",
       "freshness": "📚 经典教程",
       "path": "AI前沿/资讯速览/feishu-cli-opensource.md"
+    },
+    {
+      "category": "AI前沿",
+      "subCategory": "资讯速览",
+      "title": "我用1400年前的三省六部制，搞了一套很酷的多Agent协同方案",
+      "file": "我用1400年前的三省六部制-搞了一套很酷的多Agent协同方案.md",
+      "date": "2026-04-02 10:20",
+      "dateSort": 1775088000000,
+      "score": "",
+      "scoreNum": 0,
+      "author": "微信公众号 | **作者：** 数字生命卡兹克",
+      "freshness": "📚 经典教程",
+      "path": "AI前沿/资讯速览/我用1400年前的三省六部制-搞了一套很酷的多Agent协同方案.md"
     }
   ]
 }

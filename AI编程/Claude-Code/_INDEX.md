@@ -7,6 +7,7 @@
 |----------|----------|---------|---------|
 | Claude-Code情报中心.md | 2026-04-02 | ✅ 已吸收 | 多Agent采集架构、三层流水线 |
 | 十个顶级Claude-Code-Skills推荐.md | 2026-04-02 | ✅ 已吸收 | 10个Skills推荐、Superpowers/Planning with Files/Code Review |
+| claude-code-wechat-bridge.md | 2026-04-02 | ✅ 已吸收 | cc-connect桥接微信、beta版限制、远程入口思维 |
 | ../工具指南/Claude-Code-15-条高频技巧.md | 2026-04-02 | ✅ 已吸收 | 15条高频技巧、CLAUDE.md优化、上下文管理 |
 | ../工具指南/Claude-Code-51万行源码分析.md | 2026-04-02 | ✅ 已吸收 | 七层记忆系统、Dream机制、DAEMON架构、KAIROS |
 | ../工具指南/Claude-Code-8个隐藏新功能.md | 2026-04-02 | ✅ 已吸收 | 8个隐藏功能：Kairos/Buddy/Daemon/Ultraplan/Ultrareview |
