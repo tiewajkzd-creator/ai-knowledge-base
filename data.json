@@ -649,6 +649,19 @@
           "author": "未知",
           "freshness": "📚 经典教程",
           "path": "AI编程/工具指南/Claude-Code-Buddy宠物系统上线.md"
+        },
+        {
+          "category": "AI编程",
+          "subCategory": "工具指南",
+          "title": "Harness Engineering！驾驭工程如何驾驭AI",
+          "file": "Harness-Engineering-驾驭工程.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "AI编程/工具指南/Harness-Engineering-驾驭工程.md"
         }
       ]
     },
@@ -1415,6 +1428,19 @@
       "author": "未知",
       "freshness": "📚 经典教程",
       "path": "AI编程/工具指南/Claude-Code-Buddy宠物系统上线.md"
+    },
+    {
+      "category": "AI编程",
+      "subCategory": "工具指南",
+      "title": "Harness Engineering！驾驭工程如何驾驭AI",
+      "file": "Harness-Engineering-驾驭工程.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "AI编程/工具指南/Harness-Engineering-驾驭工程.md"
     },
     {
       "category": "AI前沿",
