@@ -575,6 +575,19 @@
         {
           "category": "AI编程",
           "subCategory": "工具指南",
+          "title": "每位 ADK 开发者都应掌握的 5 个 skill 设计模式",
+          "file": "Agent-Skill-设计模式-5种模式.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "AI编程/工具指南/Agent-Skill-设计模式-5种模式.md"
+        },
+        {
+          "category": "AI编程",
+          "subCategory": "工具指南",
           "title": "给Claude装上这10个Skills，让你拥有自己的顶尖视觉设计师",
           "file": "Claude-Code-10个视觉设计Skills.md",
           "date": "2026/04/01 16:39:48",
@@ -1350,6 +1363,19 @@
       "author": "微信公众号「Feisky」",
       "freshness": "📚 经典教程",
       "path": "AI编程/Claude-Code/十个顶级Claude-Code-Skills推荐.md"
+    },
+    {
+      "category": "AI编程",
+      "subCategory": "工具指南",
+      "title": "每位 ADK 开发者都应掌握的 5 个 skill 设计模式",
+      "file": "Agent-Skill-设计模式-5种模式.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "AI编程/工具指南/Agent-Skill-设计模式-5种模式.md"
     },
     {
       "category": "AI编程",
