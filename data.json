@@ -675,8 +675,22 @@
           "author": "未知",
           "freshness": "📚 经典教程",
           "path": "AI编程/工具指南/Harness-Engineering-驾驭工程.md"
+        },
+        {
+          "category": "AI编程",
+          "subCategory": "工具指南",
+          "title": "《动手学大模型Dive into LLMs》系列编程实践教程",
+          "file": "dive-into-llms-动手学大模型.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "AI编程/工具指南/dive-into-llms-动手学大模型.md"
         }
-      ]
+      ],
+      "教程课程": []
     },
     "AI前沿": {
       "Agent": [],
@@ -1467,6 +1481,19 @@
       "author": "未知",
       "freshness": "📚 经典教程",
       "path": "AI编程/工具指南/Harness-Engineering-驾驭工程.md"
+    },
+    {
+      "category": "AI编程",
+      "subCategory": "工具指南",
+      "title": "《动手学大模型Dive into LLMs》系列编程实践教程",
+      "file": "dive-into-llms-动手学大模型.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "AI编程/工具指南/dive-into-llms-动手学大模型.md"
     },
     {
       "category": "AI前沿",
