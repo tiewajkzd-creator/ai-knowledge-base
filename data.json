@@ -688,6 +688,19 @@
           "author": "未知",
           "freshness": "📚 经典教程",
           "path": "AI编程/工具指南/dive-into-llms-动手学大模型.md"
+        },
+        {
+          "category": "AI编程",
+          "subCategory": "工具指南",
+          "title": "TurboQuant + Atomic Chat：Mac本地大模型推理优化方案",
+          "file": "turboquant-atomic-chat-kv-cache-optimization.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "AI编程/工具指南/turboquant-atomic-chat-kv-cache-optimization.md"
         }
       ],
       "教程课程": []
@@ -1494,6 +1507,19 @@
       "author": "未知",
       "freshness": "📚 经典教程",
       "path": "AI编程/工具指南/dive-into-llms-动手学大模型.md"
+    },
+    {
+      "category": "AI编程",
+      "subCategory": "工具指南",
+      "title": "TurboQuant + Atomic Chat：Mac本地大模型推理优化方案",
+      "file": "turboquant-atomic-chat-kv-cache-optimization.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "AI编程/工具指南/turboquant-atomic-chat-kv-cache-optimization.md"
     },
     {
       "category": "AI前沿",
