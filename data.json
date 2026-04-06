@@ -883,6 +883,19 @@
         {
           "category": "AI前沿",
           "subCategory": "资讯速览",
+          "title": "[Mistral] 3.7万星！超越GPT-4o，最强开源大模型来了！",
+          "file": "mistral-ultra7b-surpasses-gpt4o.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "AI前沿/资讯速览/mistral-ultra7b-surpasses-gpt4o.md"
+        },
+        {
+          "category": "AI前沿",
+          "subCategory": "资讯速览",
           "title": "---",
           "file": "prompts-chat-全球最大开源提示词库.md",
           "date": "",
@@ -1755,6 +1768,19 @@
       "author": "未知",
       "freshness": "📚 经典教程",
       "path": "AI前沿/资讯速览/feishu-cli-opensource.md"
+    },
+    {
+      "category": "AI前沿",
+      "subCategory": "资讯速览",
+      "title": "[Mistral] 3.7万星！超越GPT-4o，最强开源大模型来了！",
+      "file": "mistral-ultra7b-surpasses-gpt4o.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "AI前沿/资讯速览/mistral-ultra7b-surpasses-gpt4o.md"
     },
     {
       "category": "AI前沿",
