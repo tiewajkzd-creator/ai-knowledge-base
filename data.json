@@ -718,6 +718,19 @@
         {
           "category": "AI编程",
           "subCategory": "工具指南",
+          "title": "[Harness工程] 2小时速通：从零搭一套Claude Code智能体系统",
+          "file": "harness-engineering-claude-code-agent.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "AI编程/工具指南/harness-engineering-claude-code-agent.md"
+        },
+        {
+          "category": "AI编程",
+          "subCategory": "工具指南",
           "title": "---",
           "file": "open-harness-港大开源轻量Agent框架.md",
           "date": "",
@@ -1612,6 +1625,19 @@
       "author": "未知",
       "freshness": "📚 经典教程",
       "path": "AI编程/工具指南/dive-into-llms-动手学大模型.md"
+    },
+    {
+      "category": "AI编程",
+      "subCategory": "工具指南",
+      "title": "[Harness工程] 2小时速通：从零搭一套Claude Code智能体系统",
+      "file": "harness-engineering-claude-code-agent.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "AI编程/工具指南/harness-engineering-claude-code-agent.md"
     },
     {
       "category": "AI编程",
