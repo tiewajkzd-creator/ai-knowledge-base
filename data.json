@@ -192,6 +192,19 @@
           "author": "微信公众号「DracoVibeCoding」",
           "freshness": "📚 经典教程",
           "path": "Agent系统/Skill开发/Claude-Skills构建指南.md"
+        },
+        {
+          "category": "Agent系统",
+          "subCategory": "Skill开发",
+          "title": "[Claw AI Lab] 金字塔分层架构+多智能体讨论，单人也能跑出「实验室」科研",
+          "file": "claw-ai-lab-multi-agent-research.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "Agent系统/Skill开发/claw-ai-lab-multi-agent-research.md"
         }
       ],
       "实战案例": [],
@@ -1092,6 +1105,19 @@
       "author": "微信公众号「DracoVibeCoding」",
       "freshness": "📚 经典教程",
       "path": "Agent系统/Skill开发/Claude-Skills构建指南.md"
+    },
+    {
+      "category": "Agent系统",
+      "subCategory": "Skill开发",
+      "title": "[Claw AI Lab] 金字塔分层架构+多智能体讨论，单人也能跑出「实验室」科研",
+      "file": "claw-ai-lab-multi-agent-research.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "Agent系统/Skill开发/claw-ai-lab-multi-agent-research.md"
     },
     {
       "category": "Agent系统",
