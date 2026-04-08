@@ -64,6 +64,19 @@
         {
           "category": "Agent系统",
           "subCategory": "OpenClaw教程",
+          "title": "OpenClaw + Gemma 4 31B IT 修复配置说明",
+          "file": "OpenClaw-Gemma-4-31B-IT修复配置说明.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "⭐⭐⭐⭐（实战验证，B站原创内容，图文并茂）",
+          "scoreNum": 4,
+          "author": "B站 · AI超元域（UP主：AI已来！AI超元域开源项目作者）",
+          "freshness": "📚 经典教程",
+          "path": "Agent系统/OpenClaw教程/OpenClaw-Gemma-4-31B-IT修复配置说明.md"
+        },
+        {
+          "category": "Agent系统",
+          "subCategory": "OpenClaw教程",
           "title": "深度解析：如何让 OpenClaw Multi-Agent 系统实现自我发现、自修复与持续进化",
           "file": "OpenClaw-MultiAgent自我发现自修复与持续进化.md",
           "date": "2026-03-19",
@@ -1014,6 +1027,19 @@
       "author": "微信公众号 Datawhale",
       "freshness": "🌿 有参考价值（真实生产案例，200+段完整内容）",
       "path": "Agent系统/OpenClaw教程/OpenClaw-Claude-Code实践案例.md"
+    },
+    {
+      "category": "Agent系统",
+      "subCategory": "OpenClaw教程",
+      "title": "OpenClaw + Gemma 4 31B IT 修复配置说明",
+      "file": "OpenClaw-Gemma-4-31B-IT修复配置说明.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "⭐⭐⭐⭐（实战验证，B站原创内容，图文并茂）",
+      "scoreNum": 4,
+      "author": "B站 · AI超元域（UP主：AI已来！AI超元域开源项目作者）",
+      "freshness": "📚 经典教程",
+      "path": "Agent系统/OpenClaw教程/OpenClaw-Gemma-4-31B-IT修复配置说明.md"
     },
     {
       "category": "Agent系统",
