@@ -12,6 +12,19 @@
         {
           "category": "Agent系统",
           "subCategory": "OpenClaw教程",
+          "title": "Anthropic被逼急了！亲生龙虾意外曝光，Karpathy：这就是Claude Claw",
+          "file": "Anthropic亲生龙虾KAIROS曝光.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "Agent系统/OpenClaw教程/Anthropic亲生龙虾KAIROS曝光.md"
+        },
+        {
+          "category": "Agent系统",
+          "subCategory": "OpenClaw教程",
           "title": "Claude Computer Use + Dispatch 操控电脑教程",
           "file": "Claude-Computer-Use和Dispatch操控电脑教程.md",
           "date": "",
@@ -157,6 +170,32 @@
         {
           "category": "Agent系统",
           "subCategory": "Skill开发",
+          "title": "「实用至上」6个超实用Skills让你的OpenClaw超进化",
+          "file": "6个超实用OpenClaw-Skills.md",
+          "date": "2026-02-04 15:10:01",
+          "dateSort": 1770163200000,
+          "score": "⭐⭐⭐⭐",
+          "scoreNum": 4,
+          "author": "腾讯云开发者社区「meme猫」",
+          "freshness": "📚 经典教程",
+          "path": "Agent系统/Skill开发/6个超实用OpenClaw-Skills.md"
+        },
+        {
+          "category": "Agent系统",
+          "subCategory": "Skill开发",
+          "title": "吴恩达 Agent Skills 学习笔记：从入门到必知必会",
+          "file": "Agent-Skills-吴恩达学习笔记.md",
+          "date": "2026/03/18 07:35:24",
+          "dateSort": 0,
+          "score": "⭐⭐⭐⭐⭐",
+          "scoreNum": 5,
+          "author": "微信公众号「铭毅天下」| 作者：铭毅天下",
+          "freshness": "📚 经典教程",
+          "path": "Agent系统/Skill开发/Agent-Skills-吴恩达学习笔记.md"
+        },
+        {
+          "category": "Agent系统",
+          "subCategory": "Skill开发",
           "title": "Anthropic skill-creator更新 - Skills工程化评估",
           "file": "Anthropic-skill-creator更新-Skills工程化评估.md",
           "date": "2026-03-12  ",
@@ -209,6 +248,32 @@
       ],
       "实战案例": [],
       "插件开发": [
+        {
+          "category": "Agent系统",
+          "subCategory": "插件开发",
+          "title": "飞书 CLI 开源：Claude Code 丝滑操控飞书",
+          "file": "feishu-cli-opensource.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "Agent系统/插件开发/feishu-cli-opensource.md"
+        },
+        {
+          "category": "Agent系统",
+          "subCategory": "插件开发",
+          "title": "OpenHarness：用3%代码量复刻Claude Code核心功能，港大HKUDS开源超轻量Agent框架",
+          "file": "open-harness-港大开源轻量Agent框架.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "Agent系统/插件开发/open-harness-港大开源轻量Agent框架.md"
+        },
         {
           "category": "Agent系统",
           "subCategory": "插件开发",
@@ -458,6 +523,19 @@
           "author": "未知",
           "freshness": "📚 经典教程",
           "path": "AI绘画/提示词收录/other-收录集.md"
+        },
+        {
+          "category": "AI绘画",
+          "subCategory": "提示词收录",
+          "title": "全球最大开源AI提示词库 prompts.chat 中有哪些值得收藏的内容",
+          "file": "prompts-chat-全球最大开源提示词库.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "AI绘画/提示词收录/prompts-chat-全球最大开源提示词库.md"
         },
         {
           "category": "AI绘画",
@@ -731,19 +809,6 @@
         {
           "category": "AI编程",
           "subCategory": "工具指南",
-          "title": "OpenHarness：用3%代码量复刻Claude Code核心功能，港大HKUDS开源超轻量Agent框架",
-          "file": "open-harness-港大开源轻量Agent框架.md",
-          "date": "",
-          "dateSort": 0,
-          "score": "",
-          "scoreNum": 0,
-          "author": "未知",
-          "freshness": "📚 经典教程",
-          "path": "AI编程/工具指南/open-harness-港大开源轻量Agent框架.md"
-        },
-        {
-          "category": "AI编程",
-          "subCategory": "工具指南",
           "title": "TurboQuant + Atomic Chat：Mac本地大模型推理优化方案",
           "file": "turboquant-atomic-chat-kv-cache-optimization.md",
           "date": "",
@@ -776,45 +841,6 @@
         }
       ],
       "资讯速览": [
-        {
-          "category": "AI前沿",
-          "subCategory": "资讯速览",
-          "title": "「实用至上」6个超实用Skills让你的OpenClaw超进化",
-          "file": "6个超实用OpenClaw-Skills.md",
-          "date": "2026-02-04 15:10:01",
-          "dateSort": 1770163200000,
-          "score": "⭐⭐⭐⭐",
-          "scoreNum": 4,
-          "author": "腾讯云开发者社区「meme猫」",
-          "freshness": "📚 经典教程",
-          "path": "AI前沿/资讯速览/6个超实用OpenClaw-Skills.md"
-        },
-        {
-          "category": "AI前沿",
-          "subCategory": "资讯速览",
-          "title": "吴恩达 Agent Skills 学习笔记：从入门到必知必会",
-          "file": "Agent-Skills-吴恩达学习笔记.md",
-          "date": "2026/03/18 07:35:24",
-          "dateSort": 0,
-          "score": "⭐⭐⭐⭐⭐",
-          "scoreNum": 5,
-          "author": "微信公众号「铭毅天下」| 作者：铭毅天下",
-          "freshness": "📚 经典教程",
-          "path": "AI前沿/资讯速览/Agent-Skills-吴恩达学习笔记.md"
-        },
-        {
-          "category": "AI前沿",
-          "subCategory": "资讯速览",
-          "title": "Anthropic被逼急了！亲生龙虾意外曝光，Karpathy：这就是Claude Claw",
-          "file": "Anthropic亲生龙虾KAIROS曝光.md",
-          "date": "",
-          "dateSort": 0,
-          "score": "",
-          "scoreNum": 0,
-          "author": "未知",
-          "freshness": "📚 经典教程",
-          "path": "AI前沿/资讯速览/Anthropic亲生龙虾KAIROS曝光.md"
-        },
         {
           "category": "AI前沿",
           "subCategory": "资讯速览",
@@ -883,19 +909,6 @@
         {
           "category": "AI前沿",
           "subCategory": "资讯速览",
-          "title": "飞书 CLI 开源：Claude Code 丝滑操控飞书",
-          "file": "feishu-cli-opensource.md",
-          "date": "",
-          "dateSort": 0,
-          "score": "",
-          "scoreNum": 0,
-          "author": "未知",
-          "freshness": "📚 经典教程",
-          "path": "AI前沿/资讯速览/feishu-cli-opensource.md"
-        },
-        {
-          "category": "AI前沿",
-          "subCategory": "资讯速览",
           "title": "[Mistral] 3.7万星！超越GPT-4o，最强开源大模型来了！",
           "file": "mistral-ultra7b-surpasses-gpt4o.md",
           "date": "",
@@ -905,19 +918,6 @@
           "author": "未知",
           "freshness": "📚 经典教程",
           "path": "AI前沿/资讯速览/mistral-ultra7b-surpasses-gpt4o.md"
-        },
-        {
-          "category": "AI前沿",
-          "subCategory": "资讯速览",
-          "title": "全球最大开源AI提示词库 prompts.chat 中有哪些值得收藏的内容",
-          "file": "prompts-chat-全球最大开源提示词库.md",
-          "date": "",
-          "dateSort": 0,
-          "score": "",
-          "scoreNum": 0,
-          "author": "未知",
-          "freshness": "📚 经典教程",
-          "path": "AI前沿/资讯速览/prompts-chat-全球最大开源提示词库.md"
         },
         {
           "category": "AI前沿",
@@ -963,6 +963,19 @@
     "个人成长": {}
   },
   "articles": [
+    {
+      "category": "Agent系统",
+      "subCategory": "OpenClaw教程",
+      "title": "Anthropic被逼急了！亲生龙虾意外曝光，Karpathy：这就是Claude Claw",
+      "file": "Anthropic亲生龙虾KAIROS曝光.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "Agent系统/OpenClaw教程/Anthropic亲生龙虾KAIROS曝光.md"
+    },
     {
       "category": "Agent系统",
       "subCategory": "OpenClaw教程",
@@ -1109,6 +1122,32 @@
     {
       "category": "Agent系统",
       "subCategory": "Skill开发",
+      "title": "「实用至上」6个超实用Skills让你的OpenClaw超进化",
+      "file": "6个超实用OpenClaw-Skills.md",
+      "date": "2026-02-04 15:10:01",
+      "dateSort": 1770163200000,
+      "score": "⭐⭐⭐⭐",
+      "scoreNum": 4,
+      "author": "腾讯云开发者社区「meme猫」",
+      "freshness": "📚 经典教程",
+      "path": "Agent系统/Skill开发/6个超实用OpenClaw-Skills.md"
+    },
+    {
+      "category": "Agent系统",
+      "subCategory": "Skill开发",
+      "title": "吴恩达 Agent Skills 学习笔记：从入门到必知必会",
+      "file": "Agent-Skills-吴恩达学习笔记.md",
+      "date": "2026/03/18 07:35:24",
+      "dateSort": 0,
+      "score": "⭐⭐⭐⭐⭐",
+      "scoreNum": 5,
+      "author": "微信公众号「铭毅天下」| 作者：铭毅天下",
+      "freshness": "📚 经典教程",
+      "path": "Agent系统/Skill开发/Agent-Skills-吴恩达学习笔记.md"
+    },
+    {
+      "category": "Agent系统",
+      "subCategory": "Skill开发",
       "title": "Anthropic skill-creator更新 - Skills工程化评估",
       "file": "Anthropic-skill-creator更新-Skills工程化评估.md",
       "date": "2026-03-12  ",
@@ -1157,6 +1196,32 @@
       "author": "未知",
       "freshness": "📚 经典教程",
       "path": "Agent系统/Skill开发/claw-ai-lab-multi-agent-research.md"
+    },
+    {
+      "category": "Agent系统",
+      "subCategory": "插件开发",
+      "title": "飞书 CLI 开源：Claude Code 丝滑操控飞书",
+      "file": "feishu-cli-opensource.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "Agent系统/插件开发/feishu-cli-opensource.md"
+    },
+    {
+      "category": "Agent系统",
+      "subCategory": "插件开发",
+      "title": "OpenHarness：用3%代码量复刻Claude Code核心功能，港大HKUDS开源超轻量Agent框架",
+      "file": "open-harness-港大开源轻量Agent框架.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "Agent系统/插件开发/open-harness-港大开源轻量Agent框架.md"
     },
     {
       "category": "Agent系统",
@@ -1391,6 +1456,19 @@
       "author": "未知",
       "freshness": "📚 经典教程",
       "path": "AI绘画/提示词收录/other-收录集.md"
+    },
+    {
+      "category": "AI绘画",
+      "subCategory": "提示词收录",
+      "title": "全球最大开源AI提示词库 prompts.chat 中有哪些值得收藏的内容",
+      "file": "prompts-chat-全球最大开源提示词库.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "AI绘画/提示词收录/prompts-chat-全球最大开源提示词库.md"
     },
     {
       "category": "AI绘画",
@@ -1655,19 +1733,6 @@
     {
       "category": "AI编程",
       "subCategory": "工具指南",
-      "title": "OpenHarness：用3%代码量复刻Claude Code核心功能，港大HKUDS开源超轻量Agent框架",
-      "file": "open-harness-港大开源轻量Agent框架.md",
-      "date": "",
-      "dateSort": 0,
-      "score": "",
-      "scoreNum": 0,
-      "author": "未知",
-      "freshness": "📚 经典教程",
-      "path": "AI编程/工具指南/open-harness-港大开源轻量Agent框架.md"
-    },
-    {
-      "category": "AI编程",
-      "subCategory": "工具指南",
       "title": "TurboQuant + Atomic Chat：Mac本地大模型推理优化方案",
       "file": "turboquant-atomic-chat-kv-cache-optimization.md",
       "date": "",
@@ -1690,45 +1755,6 @@
       "author": "新智元",
       "freshness": "🌱 新鲜观点",
       "path": "AI前沿/模型更新/SkyReels-V4登顶全球第一-国产视频模型超越Veo.md"
-    },
-    {
-      "category": "AI前沿",
-      "subCategory": "资讯速览",
-      "title": "「实用至上」6个超实用Skills让你的OpenClaw超进化",
-      "file": "6个超实用OpenClaw-Skills.md",
-      "date": "2026-02-04 15:10:01",
-      "dateSort": 1770163200000,
-      "score": "⭐⭐⭐⭐",
-      "scoreNum": 4,
-      "author": "腾讯云开发者社区「meme猫」",
-      "freshness": "📚 经典教程",
-      "path": "AI前沿/资讯速览/6个超实用OpenClaw-Skills.md"
-    },
-    {
-      "category": "AI前沿",
-      "subCategory": "资讯速览",
-      "title": "吴恩达 Agent Skills 学习笔记：从入门到必知必会",
-      "file": "Agent-Skills-吴恩达学习笔记.md",
-      "date": "2026/03/18 07:35:24",
-      "dateSort": 0,
-      "score": "⭐⭐⭐⭐⭐",
-      "scoreNum": 5,
-      "author": "微信公众号「铭毅天下」| 作者：铭毅天下",
-      "freshness": "📚 经典教程",
-      "path": "AI前沿/资讯速览/Agent-Skills-吴恩达学习笔记.md"
-    },
-    {
-      "category": "AI前沿",
-      "subCategory": "资讯速览",
-      "title": "Anthropic被逼急了！亲生龙虾意外曝光，Karpathy：这就是Claude Claw",
-      "file": "Anthropic亲生龙虾KAIROS曝光.md",
-      "date": "",
-      "dateSort": 0,
-      "score": "",
-      "scoreNum": 0,
-      "author": "未知",
-      "freshness": "📚 经典教程",
-      "path": "AI前沿/资讯速览/Anthropic亲生龙虾KAIROS曝光.md"
     },
     {
       "category": "AI前沿",
@@ -1798,19 +1824,6 @@
     {
       "category": "AI前沿",
       "subCategory": "资讯速览",
-      "title": "飞书 CLI 开源：Claude Code 丝滑操控飞书",
-      "file": "feishu-cli-opensource.md",
-      "date": "",
-      "dateSort": 0,
-      "score": "",
-      "scoreNum": 0,
-      "author": "未知",
-      "freshness": "📚 经典教程",
-      "path": "AI前沿/资讯速览/feishu-cli-opensource.md"
-    },
-    {
-      "category": "AI前沿",
-      "subCategory": "资讯速览",
       "title": "[Mistral] 3.7万星！超越GPT-4o，最强开源大模型来了！",
       "file": "mistral-ultra7b-surpasses-gpt4o.md",
       "date": "",
@@ -1820,19 +1833,6 @@
       "author": "未知",
       "freshness": "📚 经典教程",
       "path": "AI前沿/资讯速览/mistral-ultra7b-surpasses-gpt4o.md"
-    },
-    {
-      "category": "AI前沿",
-      "subCategory": "资讯速览",
-      "title": "全球最大开源AI提示词库 prompts.chat 中有哪些值得收藏的内容",
-      "file": "prompts-chat-全球最大开源提示词库.md",
-      "date": "",
-      "dateSort": 0,
-      "score": "",
-      "scoreNum": 0,
-      "author": "未知",
-      "freshness": "📚 经典教程",
-      "path": "AI前沿/资讯速览/prompts-chat-全球最大开源提示词库.md"
     },
     {
       "category": "AI前沿",
