@@ -935,6 +935,19 @@
         {
           "category": "AI前沿",
           "subCategory": "资讯速览",
+          "title": "告别 Python 爬虫，这个 CLI 工具让我一行命令抓遍全网",
+          "file": "工具-免代码CLI爬虫.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "⭐⭐（待补充完整正文后再评估）",
+          "scoreNum": 2,
+          "author": "微信公众号 · 嘟嘟的AI小龙虾（嘟嘟的AI折腾记）",
+          "freshness": "📚 经典教程",
+          "path": "AI前沿/资讯速览/工具-免代码CLI爬虫.md"
+        },
+        {
+          "category": "AI前沿",
+          "subCategory": "资讯速览",
           "title": "我用1400年前的三省六部制，搞了一套很酷的多Agent协同方案",
           "file": "我用1400年前的三省六部制-搞了一套很酷的多Agent协同方案.md",
           "date": "2026-04-02 10:20",
@@ -1833,6 +1846,19 @@
       "author": "未知",
       "freshness": "📚 经典教程",
       "path": "AI前沿/资讯速览/qwen3.5-omni-215sota-实测.md"
+    },
+    {
+      "category": "AI前沿",
+      "subCategory": "资讯速览",
+      "title": "告别 Python 爬虫，这个 CLI 工具让我一行命令抓遍全网",
+      "file": "工具-免代码CLI爬虫.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "⭐⭐（待补充完整正文后再评估）",
+      "scoreNum": 2,
+      "author": "微信公众号 · 嘟嘟的AI小龙虾（嘟嘟的AI折腾记）",
+      "freshness": "📚 经典教程",
+      "path": "AI前沿/资讯速览/工具-免代码CLI爬虫.md"
     },
     {
       "category": "AI前沿",
