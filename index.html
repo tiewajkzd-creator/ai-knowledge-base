@@ -132,8 +132,11 @@
         }
         
         function renderCard(a) {
+            // Jekyll 输出目录结构: AI绘画/工作流教程/xxx/index.html
+            // 需要 trailing slash 让浏览器识别为目录
+            const dirPath = a.path.replace('.md', '/');
             return `
-                <div class="article-card" onclick="window.open('${encodeURI(a.path.replace('.md', ''))}')">
+                <div class="article-card" onclick="window.open('${encodeURI(dirPath)}')">
                     <div class="article-meta">
                         <span>${a.freshness}</span> | 
                         <span>${a.author}</span> | 

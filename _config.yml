@@ -1,16 +1,2 @@
 theme: jekyll-theme-cayman
 markdown: kramdown
-permalink: /:path/:name.html
-
-exclude:
-  - "*.js"
-  - "*.json"
-  - "*.sh"
-  - "generate-data.js"
-  - "auto-classify-and-sync.sh"
-  - "_scripts"
-  - "node_modules"
-  - "package.json"
-
-include:
-  - "_layouts"
