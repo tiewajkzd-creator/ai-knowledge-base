@@ -26,7 +26,32 @@ Object.keys(categories).forEach(cat => {
             if (!file.endsWith('.md')) return;
             
             const content = fs.readFileSync(path.join(subPath, file), 'utf-8');
-            const lines = content.split('\n');
+            
+            // 解析 frontmatter（如果有）
+            let body = content;
+            let frontmatter = {};
+            if (content.startsWith('---')) {
+                const end = content.indexOf('\n---', 3);
+                if (end !== -1) {
+                    const fm = content.slice(3, end).trim();
+                    fm.split('\n').forEach(line => {
+                        const idx = line.indexOf(':');
+                        if (idx !== -1) {
+                            frontmatter[line.slice(0, idx).trim()] = line.slice(idx+1).trim();
+                        }
+                    });
+                    body = content.slice(end + 4);
+                }
+            }
+            
+            const lines = body.split('\n');
+            
+            // 标题优先取 frontmatter 的 title，其次取第一个 # 标题
+            let title = frontmatter.title || '';
+            if (!title) {
+                const h1 = lines.find(l => l.startsWith('# '));
+                title = h1 ? h1.replace(/^#\s*/, '') : (lines[0]?.trim() || '');
+            }
             
             let author = '未知';
             const sourceLine = lines.find(l => l.startsWith('**来源：**'));
@@ -44,7 +69,7 @@ Object.keys(categories).forEach(cat => {
             const article = {
                 category: cat,
                 subCategory: sub,
-                title: lines[0].replace(/^#\s*/, ''),
+                title: title,
                 file,
                 date: dateStr,
                 dateSort: parseDateForSort(dateStr),

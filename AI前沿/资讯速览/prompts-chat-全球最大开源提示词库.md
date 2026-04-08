@@ -10,6 +10,8 @@ score: ⭐⭐⭐⭐
 freshness: 🆕 新发现
 ---
 
+# 全球最大开源AI提示词库 prompts.chat 中有哪些值得收藏的内容
+
 ## 核心发现
 
 **prompts.chat** 是全球最大的开源AI提示词库，截至2026年4月拥有 **157,000+ GitHub Star**（排名第33最受欢迎代码仓库），被OpenAI联创Wojciech Zaremba公开推荐，被哈佛大学、哥伦比亚大学等40+篇学术论文引用。

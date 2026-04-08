@@ -10,6 +10,8 @@ score: ⭐⭐⭐⭐
 freshness: 🆕 新发现
 ---
 
+# OpenHarness：用3%代码量复刻Claude Code核心功能，港大HKUDS开源超轻量Agent框架
+
 ## 核心发现
 
 **OpenHarness** 是香港大学数据科学实验室（HKUDS）开源的 Agent Harness 框架，用约 **1 万行 Python 代码**实现了 Claude Code 约 **98% 的核心功能**，代码量只有后者的 **3%**，体积缩小 **44 倍**。

@@ -731,7 +731,7 @@
         {
           "category": "AI编程",
           "subCategory": "工具指南",
-          "title": "---",
+          "title": "OpenHarness：用3%代码量复刻Claude Code核心功能，港大HKUDS开源超轻量Agent框架",
           "file": "open-harness-港大开源轻量Agent框架.md",
           "date": "",
           "dateSort": 0,
@@ -909,7 +909,7 @@
         {
           "category": "AI前沿",
           "subCategory": "资讯速览",
-          "title": "---",
+          "title": "全球最大开源AI提示词库 prompts.chat 中有哪些值得收藏的内容",
           "file": "prompts-chat-全球最大开源提示词库.md",
           "date": "",
           "dateSort": 0,
@@ -922,7 +922,7 @@
         {
           "category": "AI前沿",
           "subCategory": "资讯速览",
-          "title": "---",
+          "title": "实测拿215项SOTA的Qwen3.5-Omni：摄像头一开，AI给我现场讲论文、撸代码",
           "file": "qwen3.5-omni-215sota-实测.md",
           "date": "",
           "dateSort": 0,
@@ -1655,7 +1655,7 @@
     {
       "category": "AI编程",
       "subCategory": "工具指南",
-      "title": "---",
+      "title": "OpenHarness：用3%代码量复刻Claude Code核心功能，港大HKUDS开源超轻量Agent框架",
       "file": "open-harness-港大开源轻量Agent框架.md",
       "date": "",
       "dateSort": 0,
@@ -1824,7 +1824,7 @@
     {
       "category": "AI前沿",
       "subCategory": "资讯速览",
-      "title": "---",
+      "title": "全球最大开源AI提示词库 prompts.chat 中有哪些值得收藏的内容",
       "file": "prompts-chat-全球最大开源提示词库.md",
       "date": "",
       "dateSort": 0,
@@ -1837,7 +1837,7 @@
     {
       "category": "AI前沿",
       "subCategory": "资讯速览",
-      "title": "---",
+      "title": "实测拿215项SOTA的Qwen3.5-Omni：摄像头一开，AI给我现场讲论文、撸代码",
       "file": "qwen3.5-omni-215sota-实测.md",
       "date": "",
       "dateSort": 0,
