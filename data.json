@@ -909,6 +909,19 @@
         {
           "category": "AI前沿",
           "subCategory": "资讯速览",
+          "title": "PromptSkill4image — 图像提示词工程技能",
+          "file": "PromptSkill4image.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "AI前沿/资讯速览/PromptSkill4image.md"
+        },
+        {
+          "category": "AI前沿",
+          "subCategory": "资讯速览",
           "title": "215项SOTA + 自然涌现Vibe Coding！Qwen3.5-Omni发布",
           "file": "Qwen35-Omni发布.md",
           "date": "",
@@ -1833,6 +1846,19 @@
       "author": "未知",
       "freshness": "📚 经典教程",
       "path": "AI前沿/资讯速览/LTX-Desktop开源AI剪辑软件.md"
+    },
+    {
+      "category": "AI前沿",
+      "subCategory": "资讯速览",
+      "title": "PromptSkill4image — 图像提示词工程技能",
+      "file": "PromptSkill4image.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "AI前沿/资讯速览/PromptSkill4image.md"
     },
     {
       "category": "AI前沿",
