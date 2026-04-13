@@ -1,0 +1,25 @@
+{
+  "record_id": "wechat-2026-04-13-khazix-deep-research",
+  "source": "wechat",
+  "url": "https://mp.weixin.qq.com/s/Y_uRMYBmdLWUPnz_ac7jWA",
+  "title": "分享一个我用了2年的深度研究Prompt，半小时帮你搞懂任何陌生领域。",
+  "account": "数字生命卡兹克",
+  "published": "2026-04-13T10:08:31+08:00",
+  "stored": "2026-04-13T12:35:00+08:00",
+  "category": "AI方法论",
+  "tags": ["Prompt", "深度研究", "AI方法论", "横纵分析法"],
+  "knowledge_base_path": "knowledge-base/AI方法论/2026-04-13-深度研究Prompt/README.md",
+  "status": "synced",
+  "sync_retry": 0,
+  "summary": "作者分享了一个用于快速深度研究的Prompt框架——「横纵分析法」，结合AI可半小时完成陌生领域的研究报告。方法论脱胎于社会科学和语言学的历时/共时分析视角，已开源在GitHub。",
+  "highlights": [
+    "横纵分析法：纵向=时间维度（历史演变），横向=当下维度（竞品对比）",
+    "历时分析（Diachronic）：沿时间轴还原发展全貌",
+    "共时分析（Synchronic）：当前时间点横向对比竞品",
+    "Prompt已开源：https://github.com/KhazixKhazix/khazix-skills",
+    "适用工具：ChatGPT DeepResearch、Claude深度研究、豆包专家模式、DeepSeek专家模式"
+  ],
+  "links": {
+    "github": "https://github.com/KhazixKhazix/khazix-skills"
+  }
+}
