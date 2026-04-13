@@ -1,0 +1,26 @@
+{
+  "record_id": "wechat-2026-04-13-mmx-cli",
+  "source": "wechat",
+  "url": "https://mp.weixin.qq.com/s/d067bWUdhqYwvfehoYKtVw",
+  "title": "MiniMax 发布 MMX-CLI：为 Agent 设计的全模态命令行工具",
+  "account": "MiniMax 稀宇科技",
+  "published": "2026-04-09T10:58:27+08:00",
+  "stored": "2026-04-13T12:08:00+08:00",
+  "category": "AI工具与产品",
+  "tags": ["AI工具", "Agent", "MiniMax", "CLI", "MCP"],
+  "knowledge_base_path": "knowledge-base/AI工具与产品/2026-04-09-MMX-CLI/README.md",
+  "status": "synced",
+  "sync_retry": 0,
+  "summary": "MiniMax 发布的命令行工具，让 Agent 可直接在终端调用图像、视频、语音合成、音乐创作等全模态能力。安装两行命令，支持输出隔离、语义化状态码、异步任务等 Agent 友好特性。",
+  "highlights": [
+    "安装：npx skills add MiniMax-AI/cli -y -g && npm install -g mmx-cli",
+    "输出隔离：--quiet + --output json，stdout 仅输出干净数据",
+    "语义化 Exit Code：每种错误有独立代号，Agent 可直接判断重试策略",
+    "异步任务：--async 支持后台执行，Agent 并行处理多任务",
+    "Token Plan 无缝衔接：复用已有订阅配额"
+  ],
+  "links": {
+    "github": "https://github.com/MiniMax-AI/cli",
+    "token_plan": "https://platform.minimaxi.com/subscribe/token-plan"
+  }
+}

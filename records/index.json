@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-04-13T12:08:00+08:00",
+  "records": [
+    {
+      "record_id": "wechat-2026-04-13-mmx-cli",
+      "source": "wechat",
+      "title": "MiniMax 发布 MMX-CLI：为 Agent 设计的全模态命令行工具",
+      "published": "2026-04-09",
+      "category": "AI工具与产品",
+      "status": "synced"
+    }
+  ]
+}
