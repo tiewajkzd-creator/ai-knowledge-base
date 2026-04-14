@@ -78,6 +78,26 @@
 - 抖音视频需登录 Cookie 或 Browser Relay + 手机分享，目前 B站是稳定方案
 - 如 B站视频无字幕，直接用此流程转写
 
+---
+
+### 微信公众号文章（mp.weixin.qq.com）
+
+**工具：** `wechat-article-extractor`（Node.js）
+路径：`~/.agents/skills/wechat-article-extractor/scripts/extract.js`
+
+```bash
+node ~/.agents/skills/wechat-article-extractor/scripts/extract.js "<链接>"
+```
+
+输出字段：title、author、account、publish_time、content（HTML）、cover_image
+
+**存入时：**
+- JSON 主记录 → `records/YYYY-MM-DD-{article-id}.json`
+- 正文 → `knowledge-base/{分类}/YYYY-MM-DD-article-id.md`
+- 更新两个 index.json
+- git add + commit
+- 推 Telegram "已存入：{标题}"
+
 ## Memory
 
 You wake up fresh each session. These files are your continuity:
