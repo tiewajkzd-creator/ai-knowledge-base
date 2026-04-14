@@ -164,6 +164,19 @@
           "author": "AI超元域",
           "freshness": "🌱 新鲜观点",
           "path": "Agent系统/OpenClaw教程/🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent.md"
+        },
+        {
+          "category": "Agent系统",
+          "subCategory": "OpenClaw教程",
+          "title": "MiniMax M2.7 + OpenClaw：文章转图 Skill 制作方法论",
+          "file": "MiniMax-M2.7-文章转图-Skill制作方法论.md",
+          "date": "2026-04-14",
+          "dateSort": 1744579200000,
+          "score": "⭐⭐⭐⭐⭐",
+          "scoreNum": 5,
+          "author": "B站 · AI超元域",
+          "freshness": "🆕 新发现",
+          "path": "Agent系统/OpenClaw教程/MiniMax-M2.7-文章转图-Skill制作方法论.md"
         }
       ],
       "Skill开发": [
@@ -834,6 +847,19 @@
           "author": "未知",
           "freshness": "📚 经典教程",
           "path": "AI编程/工具指南/turboquant-atomic-chat-kv-cache-optimization.md"
+        },
+        {
+          "category": "AI编程",
+          "subCategory": "工具指南",
+          "title": "OpenClaw自动化LoRA微调：标注、训练、测试一条龙",
+          "file": "OpenClaw LoRA自动化训练.md",
+          "date": "2026-04-14",
+          "dateSort": 1744579200000,
+          "score": "⭐⭐⭐⭐⭐",
+          "scoreNum": 5,
+          "author": "B站 · AI超元域",
+          "freshness": "🆕 新发现",
+          "path": "AI编程/工具指南/OpenClaw LoRA自动化训练.md"
         }
       ]
     },
@@ -1074,6 +1100,19 @@
           "author": "微信公众号 | **作者：** 数字生命卡兹克",
           "freshness": "📚 经典教程",
           "path": "AI前沿/资讯速览/我用1400年前的三省六部制-搞了一套很酷的多Agent协同方案.md"
+        },
+        {
+          "category": "AI前沿",
+          "subCategory": "资讯速览",
+          "title": "Gemma 4 + OpenClaw 养虾球实战：8GB Mac 的极限踩坑记录",
+          "file": "Gemma4-OpenClaw养虾球实战.md",
+          "date": "2026-04-14",
+          "dateSort": 1744579200000,
+          "score": "⭐⭐⭐⭐⭐",
+          "scoreNum": 5,
+          "author": "B站 · AI超元域",
+          "freshness": "🆕 新发现",
+          "path": "AI前沿/资讯速览/Gemma4-OpenClaw养虾球实战.md"
         }
       ]
     },
