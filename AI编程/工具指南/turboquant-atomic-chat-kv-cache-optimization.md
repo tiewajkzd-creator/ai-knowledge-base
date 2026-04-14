@@ -1,3 +1,6 @@
+---
+title: TurboQuant + Atomic Chat：Mac本地大模型推理优化方案
+---
 # TurboQuant + Atomic Chat：Mac本地大模型推理优化方案
 
 ## 基本信息

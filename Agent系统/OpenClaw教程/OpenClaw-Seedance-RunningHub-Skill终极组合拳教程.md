@@ -1,3 +1,6 @@
+---
+title: 创作的终极组合拳！OpenClaw + Seedance 2.0 + RunningHub Skill 教程
+---
 # 创作的终极组合拳！OpenClaw + Seedance 2.0 + RunningHub Skill 教程
 
 **来源：** B站 - T8 Ai教程（贞贞）

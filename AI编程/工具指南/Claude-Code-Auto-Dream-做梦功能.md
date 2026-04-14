@@ -1,3 +1,6 @@
+---
+title: Claude Code 悄悄学会了做梦
+---
 # Claude Code 悄悄学会了做梦
 
 - 来源平台：微信公众号「数字生命卡兹克」

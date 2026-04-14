@@ -1,3 +1,6 @@
+---
+title: Claude Code 完全新手指南（2026版）
+---
 # Claude Code 完全新手指南（2026版）
 
 ## 基本信息

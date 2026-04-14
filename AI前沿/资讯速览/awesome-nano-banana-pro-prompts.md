@@ -1,3 +1,6 @@
+---
+title: Awesome Nano Banana Pro Prompts — Nano Banana Pro 精选提示词库
+---
 # Awesome Nano Banana Pro Prompts — Nano Banana Pro 精选提示词库
 
 ## 基本信息

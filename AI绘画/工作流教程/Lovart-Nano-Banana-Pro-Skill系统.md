@@ -1,3 +1,6 @@
+---
+title: 在 Lovart 打开 Nano Banana Pro · 技能包"Skill"
+---
 # 在 Lovart 打开 Nano Banana Pro · 技能包"Skill"
 
 **来源：** 微信公众号 | **作者：** RaDesign

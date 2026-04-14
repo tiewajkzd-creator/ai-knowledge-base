@@ -1,3 +1,6 @@
+---
+title: OpenClaw调用Claude Code零轮询方案：Hooks回调+Agent Teams
+---
 # OpenClaw调用Claude Code零轮询方案：Hooks回调+Agent Teams
 
 **来源：** https://www.aivi.fyi/aiagents/OpenClaw-Agent-Teams  

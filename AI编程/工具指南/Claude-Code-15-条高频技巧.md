@@ -1,3 +1,6 @@
+---
+title: 15 条高频实用的 Claude Code 技巧
+---
 # 15 条高频实用的 Claude Code 技巧
 
 **标题：** 15 条高频实用的 Claude Code 技巧，助你快速掌握 Claude Code

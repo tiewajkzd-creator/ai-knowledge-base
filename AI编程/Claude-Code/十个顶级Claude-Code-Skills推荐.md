@@ -1,3 +1,6 @@
+---
+title: 十个顶级Claude Code Skills推荐
+---
 # 十个顶级Claude Code Skills推荐
 
 **来源：** 微信公众号「Feisky」  

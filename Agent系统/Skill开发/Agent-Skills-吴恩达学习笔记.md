@@ -1,3 +1,6 @@
+---
+title: 吴恩达 Agent Skills 学习笔记：从入门到必知必会
+---
 # 吴恩达 Agent Skills 学习笔记：从入门到必知必会
 
 **标题：** 吴恩达 Agent Skills 学习笔记：从入门到必知必会

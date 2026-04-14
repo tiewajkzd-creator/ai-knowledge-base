@@ -1,3 +1,6 @@
+---
+title: Seedance 2.0 分镜师Agent团队方案
+---
 # Seedance 2.0 分镜师Agent团队方案
 
 **来源**：公众号「废才俱乐部Club」  

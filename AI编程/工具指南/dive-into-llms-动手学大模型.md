@@ -1,3 +1,6 @@
+---
+title: 《动手学大模型Dive into LLMs》系列编程实践教程
+---
 # 《动手学大模型Dive into LLMs》系列编程实践教程
 
 ## 基本信息

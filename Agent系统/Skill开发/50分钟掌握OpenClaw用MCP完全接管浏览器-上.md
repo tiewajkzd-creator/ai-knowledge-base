@@ -1,3 +1,6 @@
+---
+title: 50分钟掌握OpenClaw用MCP完全接管浏览器-上
+---
 # 50分钟掌握OpenClaw用MCP完全接管浏览器-上
 
 ## 基本信息

@@ -1,3 +1,6 @@
+---
+title: OpenClaw自动操控Claude Code实现规格驱动开发
+---
 # OpenClaw自动操控Claude Code实现规格驱动开发
 
 **来源：** https://www.aivi.fyi/aiagents/introduce-OpenClaw  

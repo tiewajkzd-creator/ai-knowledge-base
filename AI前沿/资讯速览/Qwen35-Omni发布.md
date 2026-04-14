@@ -1,3 +1,6 @@
+---
+title: 215项SOTA + 自然涌现Vibe Coding！Qwen3.5-Omni发布
+---
 # 215项SOTA + 自然涌现Vibe Coding！Qwen3.5-Omni发布
 
 - 文章标题：215项SOTA + 自然涌现Vibe Coding！Qwen3.5-Omni发布

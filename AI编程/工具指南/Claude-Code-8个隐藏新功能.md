@@ -1,3 +1,6 @@
+---
+title: 盘一下Claude Code源码里的8个隐藏新功能
+---
 # 盘一下Claude Code源码里的8个隐藏新功能
 
 - 文章标题：盘一下Claude Code源码里的8个隐藏新功能。

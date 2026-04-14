@@ -1,3 +1,6 @@
+---
+title: GLM-5V-Turbo发布：多模态Coding基座模型
+---
 # GLM-5V-Turbo发布：多模态Coding基座模型
 
 **标题：** GLM-5V-Turbo发布：多模态Coding基座模型

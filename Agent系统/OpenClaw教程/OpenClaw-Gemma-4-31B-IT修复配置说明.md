@@ -1,3 +1,6 @@
+---
+title: OpenClaw + Gemma 4 31B IT 修复配置说明
+---
 # OpenClaw + Gemma 4 31B IT 修复配置说明
 
 **来源：** B站 · AI超元域（UP主：AI已来！AI超元域开源项目作者）

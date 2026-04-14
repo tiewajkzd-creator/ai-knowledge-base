@@ -1,3 +1,6 @@
+---
+title: 实测 Mimo-V2-Omni + OpenClaw 视频分析 Skill
+---
 # 实测 Mimo-V2-Omni + OpenClaw 视频分析 Skill
 
 ## 基本信息

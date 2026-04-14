@@ -1,3 +1,6 @@
+---
+title: RES4LYF：ComfyUI 采样的终极答案
+---
 # RES4LYF：ComfyUI 采样的终极答案
 
 **标题：** 从盲盒到透视：为什么 RES4LYF 是 ComfyUI 采样的终极答案？

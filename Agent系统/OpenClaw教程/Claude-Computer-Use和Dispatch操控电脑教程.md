@@ -1,3 +1,6 @@
+---
+title: Claude Computer Use + Dispatch 操控电脑教程
+---
 # Claude Computer Use + Dispatch 操控电脑教程
 
 ## 基本信息

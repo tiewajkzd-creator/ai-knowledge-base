@@ -1,3 +1,6 @@
+---
+title: Anthropic skill-creator更新 - Skills工程化评估
+---
 # Anthropic skill-creator更新 - Skills工程化评估
 
 **来源：** 微信公众号「奥大曼的AI营销实验室」  

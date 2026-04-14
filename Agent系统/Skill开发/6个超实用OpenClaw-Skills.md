@@ -1,3 +1,6 @@
+---
+title: 「实用至上」6个超实用Skills让你的OpenClaw超进化
+---
 # 「实用至上」6个超实用Skills让你的OpenClaw超进化
 
 **标题：** 「实用至上」6个超实用Skills让你的OpenClaw超进化

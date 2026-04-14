@@ -1,3 +1,6 @@
+---
+title: 给Claude Code装情报中心 - 多Agent信息采集系统
+---
 # 给Claude Code装情报中心 - 多Agent信息采集系统
 
 **来源：** 微信公众号「想象力AI」  

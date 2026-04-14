@@ -1,3 +1,6 @@
+---
+title: Claude Agent Skill搭建AI分镜师
+---
 # Claude Agent Skill搭建AI分镜师
 
 **来源**：公众号「废才俱乐部Club」  

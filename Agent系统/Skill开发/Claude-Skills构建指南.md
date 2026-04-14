@@ -1,3 +1,6 @@
+---
+title: Anthropic官方Claude Skills构建指南
+---
 # Anthropic官方Claude Skills构建指南
 
 **来源：** 微信公众号「DracoVibeCoding」  

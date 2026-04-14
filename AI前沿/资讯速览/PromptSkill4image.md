@@ -1,3 +1,6 @@
+---
+title: PromptSkill4image — 图像提示词工程技能
+---
 # PromptSkill4image — 图像提示词工程技能
 
 ## 基本信息

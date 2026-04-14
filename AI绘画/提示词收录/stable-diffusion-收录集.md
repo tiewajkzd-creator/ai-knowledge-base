@@ -1,3 +1,6 @@
+---
+title: 🎨 Stable Diffusion / SDXL 提示词收录集
+---
 # 🎨 Stable Diffusion / SDXL 提示词收录集
 
 <!-- 统计：共 0 条 | 最近更新：-- | 高评分(≥4⭐)：0 条 -->

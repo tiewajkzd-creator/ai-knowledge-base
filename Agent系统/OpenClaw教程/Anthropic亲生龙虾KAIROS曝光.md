@@ -1,3 +1,6 @@
+---
+title: Anthropic被逼急了！亲生龙虾意外曝光，Karpathy：这就是Claude Claw
+---
 # Anthropic被逼急了！亲生龙虾意外曝光，Karpathy：这就是Claude Claw
 
 - 文章标题：Anthropic被逼急了！亲生龙虾意外曝光，Karpathy：这就是Claude Claw
