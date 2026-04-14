@@ -1,0 +1,23 @@
+{
+  "bvid": "BV1EMNMzmEhd",
+  "title": "LTX2.3又更新了、去除字幕、新增GGUF工作流、报错信息解答",
+  "desc": "粉丝注册福利，注册领1000RH币：https://www.runninghub.cn/?inviteCode=rh-v1325\n\n在线工作流----------------------------------- \n\n工作流：LTX-2.3 数字人对口型 高清画质工作流\n体验地址：https://www.runninghub.cn/post/2029940383601397761/?inviteCode=rh-v1325\n\nAI应用：LTX-2.3 数字人对口型 高清画质工作流\n体验地址：https://www.runninghub.cn/ai-detail/2030239724551544833/?inviteCode=rh-v1325\n\n------------------------\n\n工作流：LTX 2.3 文生视频 + 图生视频 二合一工作流\n体验地址：https://www.runninghub.cn/post/2029933769326600194/?inviteCode=rh-v1325\n\nAI应用：LTX 2.3 文生视频 + 图生视频 二合一工作流 \n体验地址：https://www.runninghub.cn/ai-detail/2030240696480833538/?inviteCode=rh-v1325\n\n网盘资料--------------------------------------\n\n工作流+模型+整合包：https://pan.quark.cn/s/27fe4727197b \n【13】LTX2.3 图生视频、文生视频+数字人 工作流+模型全套\n\n节点及模型仓库地址--------------------------------------\n\nLlama-cpp_vlm:\nhttps://github.com/lihaoyun6/ComfyUI-llama-cpp_vlm/blob/main/requirements.txt\n\nKJNodes:\nhttps://github.com/kijai/ComfyUI-KJNodes\n\n音频信息 Audio Duration To Frames：\nhttps://github.com/syq890610-crypto/Comfyui-Mk-tools\n\nLTX 2.3 GGUF\nhttps://huggingface.co/unsloth/LTX-2.3-GGUF/tree/main",
+  "duration": 361,
+  "pubdate": "2026-03-08",
+  "owner": "三层楼的小肥猴",
+  "url": "https://www.bilibili.com/video/BV1EMNMzmEhd",
+  "tools": [
+    "LTX",
+    "ComfyUI",
+    "GGUF",
+    "Llama",
+    "KJNodes"
+  ],
+  "links": [
+    "https://www.runninghub.cn/?inviteCode=rh-v1325",
+    "https://www.runninghub.cn/post/2029940383601397761/?inviteCode=rh-v1325",
+    "https://www.runninghub.cn/ai-detail/2030239724551544833/?inviteCode=rh-v1325",
+    "https://www.runninghub.cn/post/2029933769326600194/?inviteCode=rh-v1325",
+    "https://www.runninghub.cn/ai-detail/2030240696480833538/?inviteCode=rh-v1325"
+  ]
+}

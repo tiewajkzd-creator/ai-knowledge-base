@@ -1,60 +1,80 @@
 # TOOLS.md - Local Notes
 
-## 视频处理工具
+Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
-### Whisper（本地语音转写）
-- CLI路径：`/opt/homebrew/bin/whisper-cli`
-- 模型：`~/.whisper/ggml-small.bin`
-- 常用命令：`whisper-cli -m ~/.whisper/ggml-small.bin -l zh -f audio.wav -otxt -of output`
-- Apple Silicon Metal 加速自动启用
+## What Goes Here
 
-### yt-dlp（B站/YouTube视频下载）
-- B站无需Cookie，直接可用
-- 常用命令：`yt-dlp -f <format> "<链接>"`
-- 查看格式：`yt-dlp --list-formats "<链接>"`
+Things like:
 
-### ffmpeg（音视频处理）
-- 提取音频：`ffmpeg -i video.mp4 -ar 16000 -ac 1 audio.wav`
+- Camera names and locations
+- SSH hosts and aliases
+- Preferred voices for TTS
+- Speaker/room names
+- Device nicknames
+- Anything environment-specific
 
-## 平台对应工具
+## Examples
 
-| 平台 | 推荐工具 | 备注 |
-|------|---------|------|
-| B站 | yt-dlp | 直接支持，无需Cookie |
-| YouTube | yt-dlp | 直接支持 |
-| 抖音 | Browser Relay + 手机分享 | 需要登录态，目前不稳定 |
-| 小红书 | xiaohongshu-mcp | 需要显示设备登录QR |
-| **微信公众号** | **wechat-article-extractor** | **直接支持 mp.weixin.qq.com** |
+```markdown
+### Cameras
 
-## 微信公众号文章抓取
+- living-room → Main area, 180° wide angle
+- front-door → Entrance, motion-triggered
 
-**工具路径：** `/Users/lewicklin/.agents/skills/wechat-article-extractor/`
+### SSH
 
-**触发条件：** 收到 mp.weixin.qq.com 链接
+- home-server → 192.168.1.100, user: admin
 
-**完整执行流程：**
+### TTS
 
-```bash
-# 1. 提取文章内容
-node ~/.agents/skills/wechat-article-extractor/scripts/extract.js "<文章链接>"
-
-# 2. 读取输出，整理为结构化摘要
-# （JSON 格式：title, author, account, publish_time, content, cover_image）
-
-# 3. 存 JSON 主记录 → records/YYYY-MM-DD-{article-id}.json
-# 4. 存知识库正文 → knowledge-base/{分类}/YYYY-MM-DD-{article-id}.md
-# 5. 更新 records/index.json 和 knowledge-base/index.json
-# 6. git add + commit
-# 7. 推 Telegram 告知结果（成功/失败）
+- Preferred voice: "Nova" (warm, slightly British)
+- Default speaker: Kitchen HomePod
 ```
 
-**注意：**
-- 微信公众号文章直接用此工具提取，无需 Cookie
-- 文章内容为 HTML，需提取纯文本存入知识库
-- 封面图链接单独记录
+## Why Separate?
 
-## 知识库路径
+Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
 
-- 本地：`/Users/lewicklin/.openclaw/workspace/ai-brain/knowledge-base/`
-- GitHub Pages：`https://tiewajkzd-creator.github.io/ai-knowledge-base/`
-- 记录文件：`/Users/lewicklin/.openclaw/workspace/ai-brain/records/`
+---
+
+## Model Manager 命令
+
+星爸爸的模型管理快捷命令：
+
+### 添加新模型
+告诉我：`添加模型 <提供商名称> <API密钥> <URL> <模型ID> [模型名称] [API类型]`
+- API类型可选：openai（默认）、anthropic、google
+
+### 列出所有模型
+告诉我：`列出模型` 或 `查看模型`
+
+### 切换会话模型（临时）
+告诉我：`切换模型 <provider/model>` 或使用 `/model <provider/model>`
+
+### 设置默认模型（永久）
+告诉我：`设置默认模型 <provider/model>`
+
+### 删除模型
+告诉我：`删除模型 <提供商名称>`
+
+---
+
+Add whatever helps you do your job. This is your cheat sheet.
+
+## 🔧 全局Skills索引
+**详见：** `~/.openclaw/global-capabilities/SKILLS-REGISTRY.md`
+
+---
+
+## 📺 B站视频转写工作流（2026-04-02 验证）
+
+**工具链：** yt-dlp + ffmpeg + whisper.cpp（ggml-small 模型存于 ~/.whisper/ggml-small.bin）
+
+**完整流程：**
+1. `yt-dlp -f "bestaudio[ext=m4a]" --max-filesize 100M -o "/tmp/视频名.m4a" "B站链接"`
+2. `ffmpeg -i /tmp/视频名.m4a -ar 16000 -ac 1 -c:a pcm_s16le /tmp/视频名.wav`
+3. `whisper-cli -m ~/.whisper/ggml-small.bin -l zh -f /tmp/视频名.wav -otxt -of /tmp/视频名`
+4. 读取 /tmp/视频名.txt → 整理 → 写入知识库 → 执行 auto-classify-and-sync.sh
+5. 清理临时文件
+
+**支持范围：** B站、YouTube、抖音（yt-dlp 自动识别各平台链接）

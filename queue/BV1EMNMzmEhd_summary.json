@@ -1,0 +1,25 @@
+{
+  "title": "LTX2.3又更新了、去除字幕、新增GGUF工作流、报错信息解答",
+  "source": "B站 - 三层楼的小肥猴",
+  "link": "https://www.bilibili.com/video/BV1EMNMzmEhd",
+  "date": "2026-03-08",
+  "category": "AI绘画",
+  "score": "⭐⭐⭐",
+  "keyPoints": [
+    "LTX2.3更新：新增负面提示词增强节点，可去除视频字幕",
+    "GGUF工作流优化：支持低显存设备（12-16GB）",
+    "常见报错解决：更新推理节点和ComfyUI本体可解决加载错误"
+  ],
+  "tools": [
+    "LTX2.3",
+    "ComfyUI",
+    "GGUF",
+    "Qwen3.5"
+  ],
+  "tags": [
+    "视频生成",
+    "ComfyUI",
+    "工作流优化",
+    "低显存方案"
+  ]
+}

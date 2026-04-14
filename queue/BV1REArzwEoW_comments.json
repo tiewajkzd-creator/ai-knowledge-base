@@ -1,0 +1,20 @@
+[
+  {
+    "author": "卑鄙马格斯",
+    "content": "ERROR: VAE is invalid: None\n\nIf the VAE is from a checkpoint loader node your checkpoint does not contain a valid VAE. 想请问下，这个怎么解决呀",
+    "likes": 0,
+    "time": "2026-03-13"
+  },
+  {
+    "author": "x爆子",
+    "content": "remix版本是不是对于提示词的遵从度不高啊,相同的提示词14b原始的wan2.2可以正常遵循提示词效果,但是remix版本就完全不鸟我的提示词它自由发挥",
+    "likes": 0,
+    "time": "2026-03-12"
+  },
+  {
+    "author": "Chi8wah",
+    "content": "大佬， 网盘里的 VQA 节点是不是忘了连接参考图哇，参考图不专门连一条线上去 VQA 那里的话貌似 VQA 读不到参考图",
+    "likes": 0,
+    "time": "2026-03-11"
+  }
+]

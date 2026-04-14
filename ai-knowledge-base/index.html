@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI大脑知识库</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f7fa; }
+        .container { display: flex; height: 100vh; }
+        .sidebar { width: 280px; background: white; border-right: 1px solid #e0e0e0; overflow-y: auto; }
+        .content { flex: 1; overflow-y: auto; padding: 30px; }
+        .nav-item { padding: 12px 20px; cursor: pointer; border-left: 3px solid transparent; }
+        .nav-item:hover { background: #f5f7fa; }
+        .nav-item.active { background: #e3f2fd; border-left-color: #2196f3; font-weight: 600; }
+        .sub-nav { padding-left: 40px; font-size: 14px; color: #666; }
+        .filter-bar { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
+        .filter-btn { padding: 8px 16px; border: 1px solid #ddd; border-radius: 20px; cursor: pointer; background: white; }
+        .filter-btn.active { background: #2196f3; color: white; border-color: #2196f3; }
+        .article-card { background: white; padding: 20px; margin-bottom: 15px; border-radius: 8px; cursor: pointer; }
+        .article-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .article-meta { font-size: 13px; color: #666; margin-bottom: 8px; }
+        .article-title { font-size: 16px; font-weight: 500; color: #333; }
+        h2 { margin-bottom: 20px; color: #333; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div style="padding: 20px; border-bottom: 1px solid #e0e0e0;">
+                <h3>📚 AI知识库</h3>
+            </div>
+            <div id="nav"></div>
+        </div>
+        <div class="content">
+            <div class="filter-bar">
+                <button class="filter-btn active" onclick="filterBy('all')">全部</button>
+                <button class="filter-btn" onclick="filterBy('author')">按作者</button>
+                <button class="filter-btn" onclick="filterBy('time')">按时间</button>
+                <button class="filter-btn" onclick="filterBy('quality')">按质量</button>
+            </div>
+            <div id="articles"></div>
+        </div>
+    </div>
+    <script>
+        let data = null;
+        let currentCategory = 'Agent系统';
+        let currentFilter = 'all';
+        
+        fetch('data.json?t=' + Date.now())
+            .then(r => r.json())
+            .then(d => {
+                data = d;
+                renderNav();
+                renderArticles();
+            });
+        
+        function renderNav() {
+            if (!data) return;
+            const nav = document.getElementById('nav');
+            nav.innerHTML = Object.keys(data.categories).map(cat => {
+                const subs = Object.keys(data.grouped[cat]);
+                return `
+                    <div class="nav-item ${cat === currentCategory ? 'active' : ''}" onclick="showCategory('${cat}')">
+                        ${data.categories[cat]} ${cat}
+                    </div>
+                    ${subs.map(sub => `
+                        <div class="sub-nav" onclick="showSubCategory('${cat}', '${sub}'); event.stopPropagation();">
+                            └ ${sub} (${data.grouped[cat][sub].length})
+                        </div>
+                    `).join('')}
+                `;
+            }).join('');
+        }
+        
+        function showCategory(cat) {
+            currentCategory = cat;
+            renderNav();
+            renderArticles();
+        }
+        
+        function showSubCategory(cat, sub) {
+            currentCategory = cat;
+            renderNav();
+            renderArticles(sub);
+        }
+        
+        function filterBy(type) {
+            currentFilter = type;
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            renderArticles();
+        }
+        
+        function renderArticles(subFilter = null) {
+            if (!data) return;
+            let list = subFilter 
+                ? data.articles.filter(a => a.category === currentCategory && a.subCategory === subFilter)
+                : data.articles.filter(a => a.category === currentCategory);
+            
+            if (currentFilter === 'author') {
+                const byAuthor = {};
+                list.forEach(a => {
+                    if (!byAuthor[a.author]) byAuthor[a.author] = [];
+                    byAuthor[a.author].push(a);
+                });
+                document.getElementById('articles').innerHTML = `
+                    <h2>${data.categories[currentCategory]} ${currentCategory} - 按作者分组</h2>
+                    ${Object.keys(byAuthor).map(author => `
+                        <h3 style="margin: 20px 0 10px; color: #666;">${author} (${byAuthor[author].length}篇)</h3>
+                        ${byAuthor[author].map(renderCard).join('')}
+                    `).join('')}
+                `;
+            } else if (currentFilter === 'time') {
+                list.sort((a, b) => b.dateSort - a.dateSort);
+                document.getElementById('articles').innerHTML = `
+                    <h2>${data.categories[currentCategory]} ${currentCategory} - 按时间排序</h2>
+                    ${list.map(renderCard).join('')}
+                `;
+            } else if (currentFilter === 'quality') {
+                list.sort((a, b) => b.scoreNum - a.scoreNum);
+                document.getElementById('articles').innerHTML = `
+                    <h2>${data.categories[currentCategory]} ${currentCategory} - 按质量排序</h2>
+                    ${list.map(renderCard).join('')}
+                `;
+            } else {
+                document.getElementById('articles').innerHTML = `
+                    <h2>${data.categories[currentCategory]} ${currentCategory}${subFilter ? ' / ' + subFilter : ''}</h2>
+                    ${list.map(renderCard).join('')}
+                `;
+            }
+        }
+        
+        function renderCard(a) {
+            // Jekyll 输出目录结构: AI绘画/工作流教程/xxx/index.html
+            // 需要 trailing slash 让浏览器识别为目录
+            const dirPath = a.path.replace('.md', '/');
+            return `
+                <div class="article-card" onclick="window.open('${encodeURI(dirPath)}')">
+                    <div class="article-meta">
+                        <span>${a.freshness}</span> | 
+                        <span>${a.author}</span> | 
+                        <span>${a.date}</span> | 
+                        <span>${a.score}</span>
+                    </div>
+                    <h3 class="article-title">${a.title}</h3>
+                </div>
+            `;
+        }
+        
+    </script>
+</body>
+</html>

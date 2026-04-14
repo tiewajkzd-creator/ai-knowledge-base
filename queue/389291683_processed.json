@@ -1,0 +1,19 @@
+[
+  {
+    "bvid": "BV1EMNMzmEhd",
+    "url": "https://www.bilibili.com/video/BV1EMNMzmEhd/?spm_id_from=333.1387.upload.video_card.click",
+    "title": "LTX2.3又更新了、去除字幕、新增GGUF工作流、报错信息解答       1.0万  5 2026-0",
+    "summary": [
+      "视频讲解LTX、GGUF相关内容"
+    ],
+    "tools": [
+      "LTX",
+      "GGUF"
+    ],
+    "techniques": [
+      "AI视频生成"
+    ],
+    "score": 75,
+    "date": "2026-03-13"
+  }
+]

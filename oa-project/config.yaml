@@ -1,0 +1,94 @@
+# OA — Operational Analytics Configuration
+# 定义指标 + 基准 + 闭环自检规则
+# 2026-03-20 星爸爸确认，ai-brain 代为配置
+
+openclaw_home: /Users/lewicklin/.openclaw
+db_path: data/monitor.db
+
+agents:
+- id: ai-brain
+  name: AI大脑+知识库
+  role: 知识枢纽
+- id: brainstorm
+  name: 头脑风暴
+  role: 创意讨论
+- id: claude-code-dev
+  name: 代码开发
+  role: 编码执行
+- id: data-engineer
+  name: 数据工程师
+  role: 数据处理
+- id: evolve-my-claw
+  name: 系统进化
+  role: 自检自修复
+- id: main
+  name: 主Agent
+  role: 通用对话
+- id: prediction-executor
+  name: 预测执行
+  role: 策略执行
+- id: stock-analysis
+  name: 股票分析
+  role: 数据分析
+- id: strategy-evolver
+  name: 策略进化
+  role: 策略优化
+- id: team-tasks-dispatcher
+  name: 任务调度
+  role: 流程调度
+
+# ===== 指标定义 + 基准 =====
+goals:
+
+# 1. Cron 可靠性 — 所有定时任务的生命线
+- id: cron_reliability
+  name: Cron 可靠性
+  builtin: true
+  metrics:
+  - name: success_rate
+    unit: '%'
+    healthy: 90       # ≥90% 健康（考虑偶发网络问题，不设95%）
+    warning: 70       # 70-90% 警告
+                      # <70% 危险
+
+# 2. 团队健康 — Agent 存活和纪律
+- id: team_health
+  name: 团队健康
+  builtin: true
+  metrics:
+  - name: active_agent_count
+    unit: count
+    healthy: 5        # ≥5 个活跃算健康（不是所有agent每天都需要活跃）
+    warning: 3        # <3 个说明系统可能出问题
+  - name: memory_discipline
+    unit: '%'
+    healthy: 60       # ≥60% 的agent有定期写memory（初期标准放宽）
+    warning: 30       # <30% 纪律严重缺失
+
+# 3. 知识库健康 — ai-brain 专属
+- id: knowledge_health
+  name: 知识库健康
+  builtin: false
+  metrics:
+  - name: weekly_new_entries
+    unit: count
+    healthy: 3        # 每周至少3条新内容
+    warning: 1        # 只有1条说明采集管道可能有问题
+  - name: sync_success
+    unit: '%'
+    healthy: 90       # GitHub Pages 同步成功率
+    warning: 70
+
+# 4. 响应可用性 — 系统整体
+- id: availability
+  name: 系统可用性
+  builtin: false
+  metrics:
+  - name: gateway_uptime
+    unit: '%'
+    healthy: 95       # Gateway 在线时间
+    warning: 80
+  - name: session_overflow_count
+    unit: count
+    healthy: 0        # session 撑满次数，0为最佳
+    warning: 2        # 超过2次需要关注

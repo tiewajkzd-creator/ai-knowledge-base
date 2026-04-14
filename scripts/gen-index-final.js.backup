@@ -1,0 +1,203 @@
+#!/usr/bin/env node
+const fs = require('fs');
+const path = require('path');
+
+const KB_DIR = `${process.env.HOME}/.openclaw/workspace-ai-brain/ai-knowledge-base`;
+const categories = {
+  'Agent系统': '🤖',
+  'AI绘画': '🎨',
+  'AI编程': '💻',
+  'AI前沿': '🔭',
+  '个人成长': '📖'
+};
+
+function scanArticles() {
+  const articles = [];
+  Object.keys(categories).forEach(category => {
+    const dir = path.join(KB_DIR, category);
+    if (!fs.existsSync(dir)) return;
+    const files = fs.readdirSync(dir).filter(f => f.endsWith('.md') && f !== 'README.md');
+    files.forEach(file => {
+      const content = fs.readFileSync(path.join(dir, file), 'utf8');
+      const titleMatch = content.match(/^# (.+)/m);
+      const dateMatch = content.match(/\*\*发布时间：\*\* (.+)/);
+      const scoreMatch = content.match(/\*\*质量评分：\*\* (.+)/);
+      articles.push({
+        category, 
+        title: titleMatch ? titleMatch[1] : file.replace('.md', ''),
+        file, 
+        date: dateMatch ? dateMatch[1] : '未知',
+        score: scoreMatch ? scoreMatch[1] : '⭐⭐⭐'
+      });
+    });
+  });
+  return articles;
+}
+
+const articles = scanArticles();
+const grouped = {};
+Object.keys(categories).forEach(cat => {
+  grouped[cat] = articles.filter(a => a.category === cat);
+});
+
+// 读取原版样式
+const template = fs.readFileSync(path.join(KB_DIR, 'index.html.backup'), 'utf8');
+const styleMatch = template.match(/<style>[\s\S]*?<\/style>/);
+const style = styleMatch ? styleMatch[0] : '';
+
+// 生成侧边栏
+const sidebar = Object.keys(categories).map((cat, i) => 
+  `<div class="nav-item${i === 0 ? ' active' : ''}" onclick="showCategory('${cat}')">${categories[cat]} ${cat}</div>`
+).join('\n                ');
+
+// 生成各板块内容
+const sections = Object.keys(categories).map((cat, i) => `
+        <div id="${cat}" class="category-section" style="display:${i === 0 ? 'block' : 'none'}">
+            <h2>${categories[cat]} ${cat}</h2>
+            ${grouped[cat].map(a => `
+            <div class="article-card" onclick="window.open('${encodeURIComponent(cat)}/${encodeURIComponent(a.file.replace('.md', ''))}')">
+                <div class="article-meta">
+                    <span class="article-date">${a.date}</span>
+                    <span>${a.score}</span>
+                </div>
+                <h3 class="article-title">${a.title}</h3>
+            </div>`).join('')}
+        </div>`).join('');
+
+const html = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI大脑知识库</title>
+    ${style}
+    <style>
+        .search-box { margin-bottom: 20px; }
+        .search-box input { 
+            width: 100%; 
+            padding: 10px; 
+            border: 1px solid #e0e0e0; 
+            border-radius: 6px; 
+            font-size: 14px;
+        }
+    </style>
+    <script>
+    const allArticles = ${JSON.stringify(articles)};
+    let currentCategory = 'all';
+    let currentFilter = 'all';
+    
+    function showCategory(cat) {
+        currentCategory = cat;
+        document.querySelectorAll('.category-section').forEach(s => s.style.display = 'none');
+        document.getElementById(cat).style.display = 'block';
+        document.querySelectorAll('.sidebar .nav-item').forEach(n => n.classList.remove('active'));
+        event.target.classList.add('active');
+        applyFilter();
+    }
+    
+    function filterByTime(type) {
+        currentFilter = type;
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        event.target.classList.add('active');
+        applyFilter();
+    }
+    
+    function applyFilter() {
+        const now = new Date();
+        const section = document.getElementById(currentCategory);
+        if (!section) return;
+        
+        const cards = section.querySelectorAll('.article-card');
+        cards.forEach(card => {
+            const dateStr = card.querySelector('.article-date').textContent;
+            const articleDate = new Date(dateStr);
+            let show = true;
+            
+            if (currentFilter === 'week') {
+                const weekAgo = new Date(now - 7 * 24 * 60 * 60 * 1000);
+                show = articleDate >= weekAgo;
+            } else if (currentFilter === 'month') {
+                show = articleDate.getMonth() === now.getMonth();
+            }
+            
+            card.style.display = show ? 'block' : 'none';
+        });
+    }
+    
+    function searchArticles() {
+        const query = document.getElementById('searchInput').value.toLowerCase();
+        document.querySelectorAll('.article-card').forEach(card => {
+            const title = card.querySelector('.article-title').textContent.toLowerCase();
+            card.style.display = title.includes(query) ? 'block' : 'none';
+        });
+    }
+    
+    function sortArticles(type) {
+        const section = document.getElementById(currentCategory);
+        if (!section) return;
+        
+        const cards = Array.from(section.querySelectorAll('.article-card'));
+        cards.sort((a, b) => {
+            if (type === 'time') {
+                const dateA = new Date(a.querySelector('.article-date').textContent);
+                const dateB = new Date(b.querySelector('.article-date').textContent);
+                return dateB - dateA;
+            } else if (type === 'quality') {
+                const scoreA = a.querySelector('.article-meta span:last-child').textContent.length;
+                const scoreB = b.querySelector('.article-meta span:last-child').textContent.length;
+                return scoreB - scoreA;
+            }
+        });
+        
+        cards.forEach(card => section.appendChild(card));
+    }
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h1>🧠 AI大脑知识库</h1>
+    </div>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav-section">
+                <div class="nav-title">板块</div>
+                ${sidebar}
+            </div>
+            <div class="nav-section">
+                <div class="nav-title">筛选</div>
+                <div class="nav-item" onclick="sortArticles('time')">📅 按时间</div>
+                <div class="nav-item" onclick="sortArticles('quality')">⭐ 按质量</div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="stats-bar">
+                <div class="stat">
+                    <div class="stat-num">${articles.length}</div>
+                    <div class="stat-label">总条目</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-num">${Object.keys(categories).length}</div>
+                    <div class="stat-label">板块</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-num">${articles.filter(a => a.date.includes('2026-03')).length}</div>
+                    <div class="stat-label">本月新增</div>
+                </div>
+            </div>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="🔍 搜索文章..." oninput="searchArticles()">
+            </div>
+            <div class="filter-tabs">
+                <div class="tab active" onclick="filterByTime('all')">全部</div>
+                <div class="tab" onclick="filterByTime('week')">本周</div>
+                <div class="tab" onclick="filterByTime('month')">本月</div>
+            </div>
+${sections}
+        </div>
+    </div>
+</body>
+</html>`;
+
+fs.writeFileSync(path.join(KB_DIR, 'index.html'), html, 'utf8');
+console.log(`✅ 已生成index.html，共${articles.length}篇文章`);
+

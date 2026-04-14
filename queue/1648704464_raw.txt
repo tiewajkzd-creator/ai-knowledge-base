@@ -1,0 +1,51 @@
+
+    
+      if (/(Mac|iPhone|iPod|iPad)/i.test(window.navigator.platform)) {
+        document.body.classList.add("mac");
+      } else {
+        document.body.classList.add("win");
+      }
+    
+    首页番剧直播游戏中心会员购漫画赛事下载客户端 登录 登录后你可以：免费看高清视频多端同步播放记录发表弹幕/评论热门番剧影视看不停立即登录 首次使用？  点我注册 大会员消息动态收藏历史创作中心投稿
+    错误码：-404UPINFO_ERROR: 啥都木有
+    
+    
+    
+      function initializeHeader() {
+        if (typeof BiliHeader !== "undefined") {
+          const el = document.querySelector("#biliMainHeader");
+          const header = new BiliHeader({
+            config: {
+              headerType: "mini",
+              forceVersion: 3,
+              disableSticky: true,
+              tokenSupport: true,
+              background: "transparent",
+              themeSwitchHandler: (theme) => {
+                window.dispatchEvent(
+                  new CustomEvent("themechange", { detail: theme }),
+                );
+              },
+            },
+          });
+          header.init(el);
+        }
+      }
+    
+    
+      window.__USER_FP_CONFIG__ = {
+        activityEvents: ["mousemove", "click"],
+        logStackMaxLength: 50,
+        samplingTime: 100,
+      };
+    
+    
+    
+    
+    
+    !function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();
+    
+    System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))
+  
+
+

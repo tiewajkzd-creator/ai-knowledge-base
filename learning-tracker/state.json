@@ -1,0 +1,94 @@
+{
+  "user": {
+    "name": "山丘",
+    "telegram_id": "1031655752",
+    "chat_id": "-5211118890",
+    "python_level": "zero",
+    "start_date": "2026-04-05"
+  },
+  "progress": {
+    "current_lesson": 1,
+    "current_phase": "环境准备",
+    "status": "pending",
+    "last_lesson_date": null,
+    "last_interaction": "2026-04-13T09:00:00+08:00",
+    "streak": 0,
+    "exam_tries": 0
+  },
+  "lesson_plan": [
+    {
+      "id": 1,
+      "phase": "环境准备",
+      "title": "注册Google Colab和HuggingFace账号",
+      "description": "准备好云端Python环境和模型下载账号",
+      "status": "in_progress",
+      "exam_type": "action",
+      "delivery_time": "2026-04-05T09:00:00+08:00"
+    },
+    {
+      "id": 2,
+      "phase": "Python基础",
+      "title": "Python基础 - 变量和数据类型",
+      "description": "学会变量、字符串、数字、列表",
+      "status": "pending",
+      "exam_type": "code",
+      "delivery_time": null
+    },
+    {
+      "id": 3,
+      "phase": "Python基础",
+      "title": "Python基础 - 条件和循环",
+      "description": "学会if判断和for循环",
+      "status": "pending",
+      "exam_type": "code",
+      "delivery_time": null
+    },
+    {
+      "id": 4,
+      "phase": "Python基础",
+      "title": "Python基础 - 函数",
+      "description": "学会定义和调用函数",
+      "status": "pending",
+      "exam_type": "code",
+      "delivery_time": null
+    },
+    {
+      "id": 5,
+      "phase": "工具上手",
+      "title": "Jupyter Notebook使用",
+      "description": "学会在Colab里运行代码",
+      "status": "pending",
+      "exam_type": "action",
+      "delivery_time": null
+    },
+    {
+      "id": 6,
+      "phase": "工具上手",
+      "title": "clone课程代码仓库",
+      "description": "把课程代码拉到自己的云端",
+      "status": "pending",
+      "exam_type": "action",
+      "delivery_time": null
+    },
+    {
+      "id": 7,
+      "phase": "Ch1",
+      "title": "第1章：微调与部署 - 概念",
+      "description": "什么是微调，为什么需要微调",
+      "status": "pending",
+      "exam_type": "choice",
+      "delivery_time": null
+    },
+    {
+      "id": 8,
+      "phase": "Ch1",
+      "title": "第1章：LoRA微调实战",
+      "description": "跑通LoRA微调代码",
+      "status": "pending",
+      "exam_type": "code",
+      "delivery_time": null
+    }
+  ],
+  "exam_history": [],
+  "missed_days": []
+}
