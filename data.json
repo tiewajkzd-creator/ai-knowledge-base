@@ -170,19 +170,6 @@
         {
           "category": "Agent系统",
           "subCategory": "Skill开发",
-          "title": "Harness Engineering — AI工程的第三次重心迁移（完整版）",
-          "file": "2026-04-14-harness-engineering-full.md",
-          "date": "",
-          "dateSort": 0,
-          "score": "",
-          "scoreNum": 0,
-          "author": "未知",
-          "freshness": "📚 经典教程",
-          "path": "Agent系统/Skill开发/2026-04-14-harness-engineering-full.md"
-        },
-        {
-          "category": "Agent系统",
-          "subCategory": "Skill开发",
           "title": "50分钟掌握OpenClaw用MCP完全接管浏览器-上",
           "file": "50分钟掌握OpenClaw用MCP完全接管浏览器-上.md",
           "date": "",
@@ -786,6 +773,19 @@
         {
           "category": "AI编程",
           "subCategory": "工具指南",
+          "title": "【OpenClaw自动化LoRA微调】全流程复现笔记",
+          "file": "OpenClaw LoRA自动化训练.md",
+          "date": "2026-04-09",
+          "dateSort": 1775692800000,
+          "score": "",
+          "scoreNum": 0,
+          "author": "AI超元域",
+          "freshness": "📚 经典教程",
+          "path": "AI编程/工具指南/OpenClaw LoRA自动化训练.md"
+        },
+        {
+          "category": "AI编程",
+          "subCategory": "工具指南",
           "title": "Claude Code 完全新手指南（2026版）",
           "file": "claude-code-newbie-guide-2026.md",
           "date": "",
@@ -957,6 +957,19 @@
           "author": "未知",
           "freshness": "📚 经典教程",
           "path": "AI前沿/资讯速览/Gemma-4-31B开源模型超越671B竞品.md"
+        },
+        {
+          "category": "AI前沿",
+          "subCategory": "资讯速览",
+          "title": "【Gemma 4 + OpenClaw 养虾球实战】8GB Mac 的极限踩坑记录",
+          "file": "Gemma4-OpenClaw养虾球实战.md",
+          "date": "2026-04",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "AI超元域",
+          "freshness": "📚 经典教程",
+          "path": "AI前沿/资讯速览/Gemma4-OpenClaw养虾球实战.md"
         },
         {
           "category": "AI前沿",
@@ -1222,19 +1235,6 @@
       "author": "AI超元域",
       "freshness": "🌱 新鲜观点",
       "path": "Agent系统/OpenClaw教程/🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent.md"
-    },
-    {
-      "category": "Agent系统",
-      "subCategory": "Skill开发",
-      "title": "Harness Engineering — AI工程的第三次重心迁移（完整版）",
-      "file": "2026-04-14-harness-engineering-full.md",
-      "date": "",
-      "dateSort": 0,
-      "score": "",
-      "scoreNum": 0,
-      "author": "未知",
-      "freshness": "📚 经典教程",
-      "path": "Agent系统/Skill开发/2026-04-14-harness-engineering-full.md"
     },
     {
       "category": "Agent系统",
@@ -1824,6 +1824,19 @@
     {
       "category": "AI编程",
       "subCategory": "工具指南",
+      "title": "【OpenClaw自动化LoRA微调】全流程复现笔记",
+      "file": "OpenClaw LoRA自动化训练.md",
+      "date": "2026-04-09",
+      "dateSort": 1775692800000,
+      "score": "",
+      "scoreNum": 0,
+      "author": "AI超元域",
+      "freshness": "📚 经典教程",
+      "path": "AI编程/工具指南/OpenClaw LoRA自动化训练.md"
+    },
+    {
+      "category": "AI编程",
+      "subCategory": "工具指南",
       "title": "Claude Code 完全新手指南（2026版）",
       "file": "claude-code-newbie-guide-2026.md",
       "date": "",
@@ -1989,6 +2002,19 @@
       "author": "未知",
       "freshness": "📚 经典教程",
       "path": "AI前沿/资讯速览/Gemma-4-31B开源模型超越671B竞品.md"
+    },
+    {
+      "category": "AI前沿",
+      "subCategory": "资讯速览",
+      "title": "【Gemma 4 + OpenClaw 养虾球实战】8GB Mac 的极限踩坑记录",
+      "file": "Gemma4-OpenClaw养虾球实战.md",
+      "date": "2026-04",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "AI超元域",
+      "freshness": "📚 经典教程",
+      "path": "AI前沿/资讯速览/Gemma4-OpenClaw养虾球实战.md"
     },
     {
       "category": "AI前沿",
