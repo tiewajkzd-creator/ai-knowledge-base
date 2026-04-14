@@ -45,6 +45,39 @@
 - 与 AI/技术完全无关
 - 已有类似内容的低质版本
 
+---
+
+## 🎬 B站视频完整抓取流程
+
+**触发条件：** 收到 B站视频链接 → 判定为"值得存入"
+
+**工具路径（已验证）：**
+- Whisper CLI：`/opt/homebrew/bin/whisper-cli`
+- Whisper 模型：`~/.whisper/ggml-small.bin`
+- yt-dlp：B站直接支持，无需 Cookie
+
+**执行步骤：**
+
+```
+1. yt-dlp --list-formats "<B站链接>"        # 查看可用格式
+2. yt-dlp -f <format> "<B站链接>"            # 下载视频
+3. ffmpeg -i <video> -ar 16000 -ac 1 audio.wav   # 提取音频
+4. /opt/homebrew/bin/whisper-cli -m ~/.whisper/ggml-small.bin -l zh -f audio.wav -otxt -of output
+                                                   # 本地转写（中文）
+5. 读取 output.txt，转写内容整理为结构化摘要
+6. 存入 knowledge-base/ 对应分类目录
+7. 更新 knowledge-base/index.json
+8. git add + commit
+```
+
+**格式说明：**
+- 音频推荐提取 16kHz 单声道 WAV
+- `--break-system-packages` 安装的 pip 包路径：`/opt/homebrew/lib/python3.14/site-packages/`
+
+**注意：**
+- 抖音视频需登录 Cookie 或 Browser Relay + 手机分享，目前 B站是稳定方案
+- 如 B站视频无字幕，直接用此流程转写
+
 ## Memory
 
 You wake up fresh each session. These files are your continuity:
