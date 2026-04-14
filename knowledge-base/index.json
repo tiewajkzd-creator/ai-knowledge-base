@@ -2,12 +2,22 @@
   "lastUpdated": "2026-04-14",
   "entries": [
     {
+      "id": "2026-04-14-harness-engineering-full",
+      "date": "2026-04-14",
+      "title": "Harness Engineering — AI工程的第三次重心迁移（完整版）",
+      "category": "AI方法论",
+      "path": "AI方法论/2026-04-14-harness-engineering-full.md",
+      "tags": ["AI工程", "Harness Engineering", "Agent", "方法论", "六层架构"],
+      "note": "完整18分30秒视频字幕转写，含Anthropic/OpenAI/LangChain实践案例"
+    },
+    {
       "id": "2026-04-14-harness-engineering",
       "date": "2026-04-14",
       "title": "Harness Engineering — AI工程的第三次重心迁移",
       "category": "AI方法论",
       "path": "AI方法论/2026-04-14-harness-engineering.md",
-      "tags": ["AI工程", "Harness Engineering", "方法论"]
+      "tags": ["AI工程", "Harness Engineering", "方法论"],
+      "note": "仅页面简介，待删除"
     },
     {
       "id": "2026-04-13-khazix-deep-research",
@@ -19,6 +29,7 @@
     {
       "id": "2026-04-13-mmx-cli",
       "date": "2026-04-13",
+      "2026-04-13",
       "title": "mmx-cli 工具",
       "category": "AI工具与产品",
       "path": "wechat-2026-04-13-mmx-cli.json"
