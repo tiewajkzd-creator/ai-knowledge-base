@@ -170,6 +170,19 @@
         {
           "category": "Agent系统",
           "subCategory": "Skill开发",
+          "title": "Harness Engineering — AI工程的第三次重心迁移（完整版）",
+          "file": "2026-04-14-harness-engineering-full.md",
+          "date": "",
+          "dateSort": 0,
+          "score": "",
+          "scoreNum": 0,
+          "author": "未知",
+          "freshness": "📚 经典教程",
+          "path": "Agent系统/Skill开发/2026-04-14-harness-engineering-full.md"
+        },
+        {
+          "category": "Agent系统",
+          "subCategory": "Skill开发",
           "title": "50分钟掌握OpenClaw用MCP完全接管浏览器-上",
           "file": "50分钟掌握OpenClaw用MCP完全接管浏览器-上.md",
           "date": "",
@@ -259,7 +272,6 @@
           "path": "Agent系统/Skill开发/claw-ai-lab-multi-agent-research.md"
         }
       ],
-      "实战案例": [],
       "插件开发": [
         {
           "category": "Agent系统",
@@ -300,12 +312,9 @@
           "freshness": "🌱 新鲜观点",
           "path": "Agent系统/插件开发/🚀OpenClaw高级玩法之跨机器跨Gateway交互：自研A2A协议插件打通多Agent互相通信，Token节省50%【龙虾教程】.md"
         }
-      ],
-      "架构设计": []
+      ]
     },
     "AI绘画": {
-      "AI视频": [],
-      "ComfyUI": [],
       "工作流教程": [
         {
           "category": "AI绘画",
@@ -438,11 +447,6 @@
           "path": "AI绘画/工作流教程/Seedance导演思维-视听语言.md"
         }
       ],
-      "工具": [],
-      "工具指南": [],
-      "工具测评": [],
-      "提示词工程": [],
-      "提示词库": [],
       "提示词技巧": [
         {
           "category": "AI绘画",
@@ -617,8 +621,7 @@
           "freshness": "🌱 新鲜观点",
           "path": "AI绘画/模型更新/视频 AI 终于长脑子了！实测 VBVR × Wan2.2 Remix：让 AI 视频的物理逻辑大幅提升.md"
         }
-      ],
-      "问题解决": []
+      ]
     },
     "AI编程": {
       "Claude-Code": [
@@ -832,12 +835,9 @@
           "freshness": "📚 经典教程",
           "path": "AI编程/工具指南/turboquant-atomic-chat-kv-cache-optimization.md"
         }
-      ],
-      "教程课程": []
+      ]
     },
     "AI前沿": {
-      "Agent": [],
-      "工具测评": [],
       "模型更新": [
         {
           "category": "AI前沿",
@@ -1222,6 +1222,19 @@
       "author": "AI超元域",
       "freshness": "🌱 新鲜观点",
       "path": "Agent系统/OpenClaw教程/🚀OpenClaw高级玩法之工作区优化+三大Agent深度解析！龙虾保姆级教程让你学会Persistent Agent、Sub-Agent和ACP Agent.md"
+    },
+    {
+      "category": "Agent系统",
+      "subCategory": "Skill开发",
+      "title": "Harness Engineering — AI工程的第三次重心迁移（完整版）",
+      "file": "2026-04-14-harness-engineering-full.md",
+      "date": "",
+      "dateSort": 0,
+      "score": "",
+      "scoreNum": 0,
+      "author": "未知",
+      "freshness": "📚 经典教程",
+      "path": "Agent系统/Skill开发/2026-04-14-harness-engineering-full.md"
     },
     {
       "category": "Agent系统",
