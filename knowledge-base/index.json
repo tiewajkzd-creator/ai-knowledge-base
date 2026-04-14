@@ -1,0 +1,27 @@
+{
+  "lastUpdated": "2026-04-14",
+  "entries": [
+    {
+      "id": "2026-04-14-harness-engineering",
+      "date": "2026-04-14",
+      "title": "Harness Engineering — AI工程的第三次重心迁移",
+      "category": "AI方法论",
+      "path": "AI方法论/2026-04-14-harness-engineering.md",
+      "tags": ["AI工程", "Harness Engineering", "方法论"]
+    },
+    {
+      "id": "2026-04-13-khazix-deep-research",
+      "date": "2026-04-13",
+      "title": "Khazix Deep Research 工作流",
+      "category": "AI工具与产品",
+      "path": "wechat-2026-04-13-khazix-deep-research.json"
+    },
+    {
+      "id": "2026-04-13-mmx-cli",
+      "date": "2026-04-13",
+      "title": "mmx-cli 工具",
+      "category": "AI工具与产品",
+      "path": "wechat-2026-04-13-mmx-cli.json"
+    }
+  ]
+}
